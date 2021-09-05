@@ -3,15 +3,21 @@
         "desc": "1 Year supply of Gratuitas.org Coffee ",
         "goal":2,
         "address":"subaddress1"
+        "total":0,
+        "percent":0
     },
     {
         "desc": "My next short story 'catchy title'",
         "goal":1,
         "address":"subaddress2"
+        "total":0,
+        "percent":0
     },
     {
         "desc": "Buy me a beer",
         "goal":0.02,
         "address": "subaddress3"
+        "total":0,
+        "percent":0
     }
 ]
