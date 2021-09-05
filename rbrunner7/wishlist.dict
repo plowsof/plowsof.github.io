@@ -1,0 +1,17 @@
+[
+    { 
+        "desc": "1 Year supply of Gratuitas.org Coffee ",
+        "goal":2,
+        "address":"subaddress1"
+    },
+    {
+        "desc": "My next short story 'catchy title'",
+        "goal":1,
+        "address":"subaddress2"
+    },
+    {
+        "desc": "Buy me a beer",
+        "goal":0.02,
+        "address": "subaddress3"
+    }
+]
