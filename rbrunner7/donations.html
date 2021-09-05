@@ -8,6 +8,10 @@ body {padding: 20px;}
 p, ul {font-size:1em; font-family: Arial, Helvetica, sans-serif; max-width: 70em; line-height: 120%;}
 code {font-size:1.2em; color:blue}
 pre {overflow: auto; color:blue; padding-left: 20px;}
+html {width: 100%; height: 100%; margin: 0}
+.wishlist-container {display: flex; width: 100%; height: 100%; flex-direction: column; background-color: blue; overflow: hidden;}
+.first-row {background-color: lime; }
+.wishlist { flex-grow: 1; border: none; margin: 0; padding: 0; }
 -->
 </style>
 </head>
@@ -19,8 +23,13 @@ or my Monero-themed short stories feel free to send any amount, however small, t
 <p><img src="https://raw.githubusercontent.com/rbrunner7/rbrunner7.github.io/master/rbrunner7.png" alt="rbrunner7 XMR donation address" height="200" width="200"></p>
 
   
+ 
   
-<iframe src="wishlist.html" title="Tasks to be funded" frameBorder="0">
-</iframe>
+<div class="wishlist-container">
+  <div class="first-row">
+    <p>Some title</p>
+  </div>
+  <iframe src="wishlist.html" class="wishlist"> </iframe>
+</div>
 </body>
 </html>
