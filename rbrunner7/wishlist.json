@@ -10,7 +10,7 @@
         "address":"subaddress2"
     },
     {
-        "desc": "Buy me a beer",
+        "desc": "Buy me a beer(s)",
         "goal":0.02,
         "address": "subaddress3"
     }
