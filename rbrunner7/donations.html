@@ -16,6 +16,12 @@ html {width: 100%; height: 100%; margin: 0}
 </style>
 </head>
 <body>
+ <script>
+    function reload() {
+        document.getElementById('iframeid').src += '';
+    }
+    window.onload = reload;
+</script>
 <h1>Donations to rbrunner7</h1>
 <p>If you want to donate XMR for my contributions to Monero like the MMS (Multisig Messaging System)
 or my Monero-themed short stories feel free to send any amount, however small, to my XMR address:</p>
@@ -29,7 +35,7 @@ or my Monero-themed short stories feel free to send any amount, however small, t
   <div class="first-row">
     <p>Some title</p>
   </div>
-  <iframe src="wishlist.html" class="wishlist"> </iframe>
+  <iframe src="wishlist.html" class="wishlist" id="iframeid"> </iframe>
 </div>
 </body>
 </html>
