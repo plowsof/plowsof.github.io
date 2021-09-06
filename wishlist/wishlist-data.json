@@ -74,7 +74,8 @@
             }
       ],
       {
-            "contributors": 0,
-            "total": 0
+            "contributors": 1,
+            "total": 0.2,
+            "modified": "<built-in method now of type object at 0x92bb40>"
       }
 ]
