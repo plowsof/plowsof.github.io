@@ -10,11 +10,11 @@
             },
             {
                   "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
-                  "contributors": 7,
+                  "contributors": 8,
                   "desc": "Blowing a dandelion",
                   "goal": 0.5,
-                  "percent": 6.800000000000001,
-                  "total": 0.034
+                  "percent": 8.8,
+                  "total": 0.044000000000000004
             },
             {
                   "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
@@ -75,7 +75,7 @@
       ],
       {
             "contributors": 33,
-            "modified": "2021-09-07 00:43:03.785159",
+            "modified": "2021-09-07 00:43:07.931899",
             "total": 585469254.7539912
       }
 ]
