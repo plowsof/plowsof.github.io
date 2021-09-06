@@ -18,11 +18,11 @@
             },
             {
                   "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
-                  "contributors": 1,
+                  "contributors": 2,
                   "desc": "Sitting on a throne",
                   "goal": 0.5,
-                  "percent": 2.0,
-                  "total": 0.01
+                  "percent": 4.0,
+                  "total": 0.02
             },
             {
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -75,7 +75,7 @@
       ],
       {
             "contributors": 29,
-            "modified": "2021-09-07 00:42:10.893580",
+            "modified": "2021-09-07 00:42:14.912557",
             "total": 36591828.41806196
       }
 ]
