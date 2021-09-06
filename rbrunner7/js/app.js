@@ -11,6 +11,7 @@ async function getWishlist() {
 async function renderWishlist() {
     let wishlist = await getWishlist();
     let html = '';
+    let id = 0
     let ran_int = Math.floor(Math.random() * 101);
     wishlist.forEach(wish => {
 
@@ -18,15 +19,29 @@ async function renderWishlist() {
                             <li>
                                 ${wish.desc} : <i class="fundgoal">Raised ${wish.total} of ${wish.goal} XMR   <progress id="file" max="100" value="${wish.percent}">${wish.percent}%</progress> Contributors: ${wish.contributors}</i>
                                 <label for="file"></label>
-                                <p class="subaddresses">${wish.address} wejavascriptnow${ran_int}</p>
+                                <p class="subaddresses" id="${id}" onclick=CopyToClipboard('${id}')>${wish.address}</p>${ran_int}<br/>
                             </li>
                         </div>`;
         html += htmlSegment;
+    id += 1;
     });
 
     let container = document.querySelector('.container');
     container.innerHTML = html;
 }
 
+async function CopyToClipboard(id)
+{
+    var node = document.getElementById(id);
+    htmlContent = node.innerHTML;
+    // htmlContent = "Some <span class="foo">sample</span> text."
+    textContent = node.textContent;
+    alert(textContent)
+    // textContent = "Some sample text."
+    navigator.clipboard.writeText(textToCopy)
+    .then(() => { alert(`Copied!`) })
+    .catch((error) => { alert(`Copy failed! ${error}`) })
+}
+//on page load - render the wishlist. set a 'time updated variable from the json' then loop compare
 //infinite loop
 setInterval('renderWishlist()',1000)
