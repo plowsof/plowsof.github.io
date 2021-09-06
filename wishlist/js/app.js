@@ -1,5 +1,5 @@
 async function getWishlist() {
-    let url = 'https://raw.githubusercontent.com/plowsof/plowsof.github.io/main/rbrunner7/wishlist-data.json';
+    let url = 'https://raw.githubusercontent.com/plowsof/plowsof.github.io/main/wishlist/wishlist-data.json';
     try {
         let res = await fetch(url);
         return await res.json();
@@ -13,7 +13,7 @@ async function renderWishlist() {
     let html = '';
     let id = 0
     let ran_int = Math.floor(Math.random() * 101);
-    wishlist.forEach(wish => {
+    wishlist[0].forEach(wish => {
 
     let htmlSegment =`  <div class ="wish">
                             <li>
