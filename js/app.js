@@ -20,6 +20,7 @@ async function renderWishlist() {
         let id = 0
         let ran_int = Math.floor(Math.random() * 101);
         wishlist[0].forEach(wish => {
+        wish.percent = wish.total / wish.goal * 100;
         let total = wish.total.toFixed(2)
         let htmlSegment =`  <div class ="wish">
                                 <li>
