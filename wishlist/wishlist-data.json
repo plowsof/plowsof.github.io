@@ -1,18 +1,18 @@
 [
       [
             {
+                  "address": "84KDo28eAXk6hvRc1cZVmMGwpFT7bCEGG4VEXP2tigg6Ab7zYMBf45vGHg9hjUWqEUCimLrNhVMca1WFKTPnB4XRE35nn6L",
+                  "contributors": 1,
+                  "desc": "Walking doggirl Wownero-chan on a leash",
+                  "goal": 0.4,
+                  "percent": 5.0,
+                  "total": 0.02
+            },
+            {
                   "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
                   "contributors": 0,
                   "desc": "Dressed as a miner / mining",
                   "goal": 0.5,
-                  "percent": 0,
-                  "total": 0
-            },
-            {
-                  "address": "84KDo28eAXk6hvRc1cZVmMGwpFT7bCEGG4VEXP2tigg6Ab7zYMBf45vGHg9hjUWqEUCimLrNhVMca1WFKTPnB4XRE35nn6L",
-                  "contributors": 0,
-                  "desc": "Walking doggirl Wownero-chan on a leash",
-                  "goal": 0.4,
                   "percent": 0,
                   "total": 0
             },
@@ -75,7 +75,7 @@
       ],
       {
             "contributors": 15,
-            "modified": "2021-09-07 02:38:55.238591",
+            "modified": "2021-09-07 02:38:58.263805",
             "total": 1.28347347316
       }
 ]
