@@ -15,10 +15,10 @@ async function renderWishlist() {
     let id = 0
     let ran_int = Math.floor(Math.random() * 101);
     wishlist[0].forEach(wish => {
-
+    let total = wish.total.toFixed(2)
     let htmlSegment =`  <div class ="wish">
                             <li>
-                                ${wish.desc} : <i class="fundgoal">Raised ${wish.total} of ${wish.goal} XMR   <progress id="file" max="100" value="${wish.percent}">${wish.percent}%</progress> Contributors: ${wish.contributors}</i>
+                                ${wish.desc} : <i class="fundgoal">Raised ${total} of ${wish.goal} XMR   <progress id="file" max="100" value="${wish.percent}">${wish.percent}%</progress> Contributors: ${wish.contributors}</i>
                                 <label for="file"></label>
                                 <p class="subaddresses" id="${id}" onclick=CopyToClipboard('${id}')>${wish.address}</p>${ran_int}<br/>
                             </li>
