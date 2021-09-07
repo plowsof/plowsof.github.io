@@ -2,11 +2,11 @@
       [
             {
                   "address": "84KDo28eAXk6hvRc1cZVmMGwpFT7bCEGG4VEXP2tigg6Ab7zYMBf45vGHg9hjUWqEUCimLrNhVMca1WFKTPnB4XRE35nn6L",
-                  "contributors": 1,
+                  "contributors": 2,
                   "desc": "Walking doggirl Wownero-chan on a leash",
                   "goal": 0.4,
-                  "percent": 5.0,
-                  "total": 0.02
+                  "percent": 7.5,
+                  "total": 0.03
             },
             {
                   "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
@@ -75,7 +75,7 @@
       ],
       {
             "contributors": 15,
-            "modified": "2021-09-07 04:05:17.866489",
+            "modified": "2021-09-07 04:05:20.846217",
             "total": 1.28347347316
       }
 ]
