@@ -1,5 +1,6 @@
 async function getWishlist() {
-    let url = 'https://raw.githubusercontent.com/plowsof/plowsof.github.io/main/wishlist/wishlist-data.json';
+    let ran_int = Math.floor(Math.random() * 100000)
+    let url = 'https://raw.githubusercontent.com/plowsof/plowsof.github.io/main/wishlist/wishlist-data.json?uid=' + ran_int;
     try {
         let res = await fetch(url);
         return await res.json();
