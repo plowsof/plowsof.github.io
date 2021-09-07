@@ -1,3 +1,4 @@
+let modified = "0"
 
 async function getWishlist() {
     let ran_int = Math.floor(Math.random() * 100000)
@@ -12,26 +13,31 @@ async function getWishlist() {
 
 async function renderWishlist() {
     let wishlist = await getWishlist();
-    let html = '';
-    let id = 0
-    let ran_int = Math.floor(Math.random() * 101);
-    wishlist[0].forEach(wish => {
+    modified_live = wishlist[1]["modified"]
+    if (modified != modified_live){
+        modified = modified_live
+        let html = '';
+        let id = 0
+        let ran_int = Math.floor(Math.random() * 101);
+        wishlist[0].forEach(wish => {
+        let total = wish.total.toFixed(2)
+        let htmlSegment =`  <div class ="wish">
+                                <li>
+                                    ${wish.desc} : <i class="fundgoal">Raised ${total} of ${wish.goal} XMR   <progress id="file" max="100" value="${wish.percent}">${wish.percent}%</progress> Contributors: ${wish.contributors}</i>
+                                    <label for="file"></label>
+                                    <p class="subaddresses" id="${id}" onclick=CopyToClipboard('${id}')>${wish.address}</p><br/>
+                                </li>
+                            </div>`;
+            html += htmlSegment;
+        id += 1;
+        });
 
-    let htmlSegment =`  <div class ="wish">
-                            <li>
-                                ${wish.desc} : <i class="fundgoal">Raised ${wish.total} of ${wish.goal} XMR   <progress id="file" max="100" value="${wish.percent}">${wish.percent}%</progress> Contributors: ${wish.contributors}</i>
-                                <label for="file"></label>
-                                <p class="subaddresses" id="${id}" onclick=CopyToClipboard('${id}')>${wish.address}</p><br/>
-                            </li>
-                        </div>`;
-        html += htmlSegment;
-    id += 1;
-    });
+        let container = document.querySelector('.container');
+        container.innerHTML = html;
+        let total_main = document.querySelector('.total_main');
+        total_main.innerHTML = wishlist[1]["total"];
+    }
 
-    let container = document.querySelector('.container');
-    container.innerHTML = html;
-    let total_main = document.querySelector('.total_main');
-    total_main.innerHTML = wishlist[1]["total"];
 }
 
 function CopyToClipboard(id)
@@ -48,5 +54,6 @@ function CopyToClipboard(id)
 }
 //on page load - render the wishlist. set a 'time updated variable from the json' then loop compare
 //infinite loop
+
 renderWishlist()
 setInterval('renderWishlist()',5000)
