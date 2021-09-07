@@ -31,10 +31,10 @@ a {
   font-size: 85%;
   font-weight: bold
 }
-
 .subaddresses {
   color: #ff6600;
-  font-size: 75%
+  font-size: 75%;
+  cursor: pointer
 }
 
 .logo {
