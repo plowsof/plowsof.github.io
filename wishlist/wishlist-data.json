@@ -34,11 +34,11 @@
             },
             {
                   "address": "86Z68Znx9FGgjvXqcDJfeuQ6S21h2EHqP617txPgXedkES6PDEaU8SyF4uUrGPW1X4h6p9hQ8U2XZWKUVLBFNpS5URedzme",
-                  "contributors": 4,
+                  "contributors": 5,
                   "desc": "Spanking IRS-chan over her knee",
                   "goal": 0.4,
-                  "percent": 9.999999999999999e-10,
-                  "total": 4e-12
+                  "percent": 1.2499999999999998e-09,
+                  "total": 5e-12
             },
             {
                   "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
@@ -75,7 +75,7 @@
       ],
       {
             "contributors": 88,
-            "modified": "2021-09-07 02:17:11.391619",
+            "modified": "2021-09-07 02:17:14.481033",
             "total": 4.98142041948
       }
 ]
