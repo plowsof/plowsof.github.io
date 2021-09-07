@@ -45,4 +45,4 @@ async function CopyToClipboard(id)
 //on page load - render the wishlist. set a 'time updated variable from the json' then loop compare
 //infinite loop
 renderWishlist()
-setInterval('renderWishlist()',1000)
+setInterval('renderWishlist()',10000)
