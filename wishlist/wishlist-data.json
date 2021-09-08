@@ -9,7 +9,7 @@
                   "percent": 100
             },
             {
-                  "goal": 1.0,
+                  "goal": 2.0,
                   "total": 2.05,
                   "contributors": 2,
                   "address": "89kQvQmh7stXu5tHTytEJWiMmRPSfM3V3NBvuiUukwGRUiDybxYqG2pTxjEqmVT9oeAYsnif2ZeMiWKtXcazFpkKHNAPpm5",
@@ -84,6 +84,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-08 16:50:29.569256"
+            "modified": "2021-09-08 16:50:29.569257"
       }
 ]
