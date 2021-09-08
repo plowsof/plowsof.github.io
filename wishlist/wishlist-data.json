@@ -9,20 +9,20 @@
                   "total": 0.4
             },
             {
+                  "address": "89kQvQmh7stXu5tHTytEJWiMmRPSfM3V3NBvuiUukwGRUiDybxYqG2pTxjEqmVT9oeAYsnif2ZeMiWKtXcazFpkKHNAPpm5",
+                  "contributors": 2,
+                  "desc": "Lofi Girl Animation",
+                  "goal": 1.0,
+                  "percent": 100,
+                  "total": 1.0
+            },
+            {
                   "address": "86Z68Znx9FGgjvXqcDJfeuQ6S21h2EHqP617txPgXedkES6PDEaU8SyF4uUrGPW1X4h6p9hQ8U2XZWKUVLBFNpS5URedzme",
                   "contributors": 3,
                   "desc": "Spanking IRS-chan over her knee",
                   "goal": 0.4,
                   "percent": 37.5000000005,
                   "total": 0.150000000002
-            },
-            {
-                  "address": "89kQvQmh7stXu5tHTytEJWiMmRPSfM3V3NBvuiUukwGRUiDybxYqG2pTxjEqmVT9oeAYsnif2ZeMiWKtXcazFpkKHNAPpm5",
-                  "contributors": 1,
-                  "desc": "Lofi Girl Animation",
-                  "goal": 1.0,
-                  "percent": 5.0,
-                  "total": 0.05
             },
             {
                   "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
@@ -83,7 +83,7 @@
       ],
       {
             "contributors": 30,
-            "modified": "2021-09-08 05:41:07.538691",
-            "total": 0.3374734731599993
+            "modified": "2021-09-08 05:59:53.434336",
+            "total": 1.3874734731599991
       }
 ]
