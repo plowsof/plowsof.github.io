@@ -1,7 +1,7 @@
 [
       [
             {
-                  "address": "FUNDED!",
+                  "address": "FULLY FUNDED!",
                   "contributors": 8,
                   "desc": "Walking doggirl Wownero-chan on a leash",
                   "goal": 0.4,
@@ -9,7 +9,7 @@
                   "total": 0.4
             },
             {
-                  "address": "89kQvQmh7stXu5tHTytEJWiMmRPSfM3V3NBvuiUukwGRUiDybxYqG2pTxjEqmVT9oeAYsnif2ZeMiWKtXcazFpkKHNAPpm5",
+                  "address": "FULLY FUNDED!",
                   "contributors": 2,
                   "desc": "Lofi Girl Animation",
                   "goal": 1.0,
@@ -17,7 +17,7 @@
                   "total": 1.0
             },
             {
-                  "address": "89gWT9S5mgx3gCJeADaS3Y57iBBot2QDVWaQweHbRxqphuHHfBJySiASCM8QRMRUhC6B2Mud2crtXHKCRkx96A8SJQAsUCk",
+                  "address": "FULLY FUNDED!",
                   "contributors": 1,
                   "desc": "Headpatting doggirl Wownero",
                   "goal": 0.4,
@@ -83,7 +83,7 @@
       ],
       {
             "contributors": 30,
-            "modified": "2021-09-08 06:43:33.955404",
+            "modified": "2021-09-08 06:43:33.955405",
             "total": 1.3874734731599991
       }
 ]
