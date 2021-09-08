@@ -71,6 +71,14 @@
                   "goal": 0.3,
                   "percent": 0,
                   "total": 0
+            },
+            {
+                  "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
+                  "contributors": 0,
+                  "desc": "Test",
+                  "goal": 0.3,
+                  "percent": 0,
+                  "total": 0
             }
       ],
       {
