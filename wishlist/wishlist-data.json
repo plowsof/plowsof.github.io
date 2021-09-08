@@ -17,6 +17,14 @@
                   "total": 1.0
             },
             {
+                  "address": "89gWT9S5mgx3gCJeADaS3Y57iBBot2QDVWaQweHbRxqphuHHfBJySiASCM8QRMRUhC6B2Mud2crtXHKCRkx96A8SJQAsUCk",
+                  "contributors": 1,
+                  "desc": "Headpatting doggirl Wownero",
+                  "goal": 0.4,
+                  "percent": 100,
+                  "total": 0.4
+            },
+            {
                   "address": "86Z68Znx9FGgjvXqcDJfeuQ6S21h2EHqP617txPgXedkES6PDEaU8SyF4uUrGPW1X4h6p9hQ8U2XZWKUVLBFNpS5URedzme",
                   "contributors": 3,
                   "desc": "Spanking IRS-chan over her knee",
@@ -57,14 +65,6 @@
                   "total": 0
             },
             {
-                  "address": "89gWT9S5mgx3gCJeADaS3Y57iBBot2QDVWaQweHbRxqphuHHfBJySiASCM8QRMRUhC6B2Mud2crtXHKCRkx96A8SJQAsUCk",
-                  "contributors": 0,
-                  "desc": "Headpatting doggirl Wownero",
-                  "goal": 0.4,
-                  "percent": 0,
-                  "total": 0
-            },
-            {
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
                   "contributors": 0,
                   "desc": "Posed with an assault rifle",
@@ -83,7 +83,7 @@
       ],
       {
             "contributors": 30,
-            "modified": "2021-09-08 05:59:53.434336",
+            "modified": "2021-09-08 06:26:52.687807",
             "total": 1.3874734731599991
       }
 ]
