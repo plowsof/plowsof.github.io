@@ -42,19 +42,19 @@
             },
             {
                   "goal": 0.5,
+                  "total": 0.502,
+                  "contributors": 5,
+                  "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
+                  "desc": "Blowing a dandelion",
+                  "percent": 100
+            },
+            {
+                  "goal": 0.5,
                   "total": 0.08,
                   "contributors": 4,
                   "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
                   "desc": "Dressed as a miner / mining",
                   "percent": 16.0
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.022,
-                  "contributors": 4,
-                  "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
-                  "desc": "Blowing a dandelion",
-                  "percent": 4.3999999999999995
             },
             {
                   "goal": 0.5,
@@ -84,6 +84,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-11 23:29:58.122313"
+            "modified": "2021-09-11 23:53:47.441833"
       }
 ]
