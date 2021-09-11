@@ -34,6 +34,14 @@
             },
             {
                   "goal": 0.5,
+                  "total": 0.5,
+                  "contributors": 2,
+                  "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
+                  "desc": "Sitting on a throne",
+                  "percent": 100
+            },
+            {
+                  "goal": 0.5,
                   "total": 0.08,
                   "contributors": 4,
                   "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
@@ -47,14 +55,6 @@
                   "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
                   "desc": "Blowing a dandelion",
                   "percent": 4.3999999999999995
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.01,
-                  "contributors": 1,
-                  "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
-                  "desc": "Sitting on a throne",
-                  "percent": 2.0
             },
             {
                   "goal": 0.5,
@@ -84,6 +84,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-10 23:35:37.882717"
+            "modified": "2021-09-11 23:29:58.122313"
       }
 ]
