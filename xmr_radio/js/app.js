@@ -8,7 +8,7 @@ async function getWishlist() {
         let res = await fetch(url);
         return await res.json();
     } catch (error) {
-        alert(error);
+        return null;
     }
 }
 
@@ -24,7 +24,7 @@ async function renderWishlist() {
         wishlist["wishlist"].forEach(wish => {
         let qrcheck = document.getElementById(`qr-${wish.address}`);
         let qrchecked = (qrcheck && qrcheck.checked)?" checked":"";
-        alert(qrchecked)
+        //alert(qrchecked)
         wish.percent = wish.total / wish.goal * 100;
         let total = wish.total.toFixed(2)
         let goal = wish.goal.toFixed(2)
