@@ -54,7 +54,7 @@ async function renderWishlist() {
                                 <input id="qr-${wish.address}" type="checkbox" name="tabs" class="accordion"${qrchecked}>
                                 <label for="qr-${wish.address}" class="accordion button">QRcode</label>
                                 <br><div class="qr-content">
-                                    <p><a class="qr" href="monero:${wish.address}?tx_description=${encodeURIComponent(wish.title)}"><img src="qrs/${wish.address.substr(0,12)}.png"></a></p>
+                                    <p><a class="qr" href="monero:${wish.address}?tx_description=${encodeURIComponent(wish.title)}"><img src="${wish.qr_img_url}"></a></p>
                                 </div>`
         let htmlSegment =`               <div class ="wish">
                                     <li id=${wish.id}>
