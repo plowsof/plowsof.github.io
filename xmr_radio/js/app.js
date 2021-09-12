@@ -24,6 +24,7 @@ async function renderWishlist() {
         wishlist["wishlist"].forEach(wish => {
         let qrcheck = document.getElementById(`qr-${wish.address}`);
         let qrchecked = (qrcheck && qrcheck.checked)?" checked":"";
+        alert(qrchecked)
         wish.percent = wish.total / wish.goal * 100;
         let total = wish.total.toFixed(2)
         let goal = wish.goal.toFixed(2)
@@ -53,7 +54,7 @@ async function renderWishlist() {
                                 <input id="qr-${wish.address}" type="checkbox" name="tabs" class="accordion"${qrchecked}>
                                 <label for="qr-${wish.address}" class="accordion button">QRcode</label>
                                 <br><div class="qr-content">
-                                    <p><a class="qr" <img src="qrs/${wish.address.substr(0,12)}.png"></a></p>
+                                    <p><a class="qr" href="monero:${wish.address}?tx_description=${encodeURIComponent(wish.title)}"><img src="qrs/${wish.address.substr(0,12)}.png"></a></p>
                                 </div>`
         let htmlSegment =`               <div class ="wish">
                                     <li id=${wish.id}>
