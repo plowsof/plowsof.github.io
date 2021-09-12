@@ -36,7 +36,7 @@ async function renderWishlist() {
         let atail = wish.address.substr(-5,5)
         let something = ""
         let address = something.concat(ahead1, " ", ahead2," .. ", atail1, " ", atail2)
-        wish.percent = 50
+        //wish.percent = 50
         var current_percent = wish.percent;
         let ascii_progress = ''
         for (n = 0; n < 20; n++) {
