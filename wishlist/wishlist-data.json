@@ -50,11 +50,11 @@
             },
             {
                   "goal": 0.5,
-                  "total": 0.08,
-                  "contributors": 4,
+                  "total": 0.5,
+                  "contributors": 5,
                   "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
                   "desc": "Dressed as a miner / mining",
-                  "percent": 16.0
+                  "percent": 100
             },
             {
                   "goal": 0.5,
@@ -84,6 +84,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-11 23:53:47.441833"
+            "modified": "2021-09-13 19:25:55.796989"
       }
 ]
