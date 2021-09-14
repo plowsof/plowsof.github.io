@@ -9,14 +9,6 @@
                   "percent": 100
             },
             {
-                  "goal": 2.0,
-                  "total": 2.15,
-                  "contributors": 3,
-                  "address": "89kQvQmh7stXu5tHTytEJWiMmRPSfM3V3NBvuiUukwGRUiDybxYqG2pTxjEqmVT9oeAYsnif2ZeMiWKtXcazFpkKHNAPpm5",
-                  "desc": "Lofi Girl Animation",
-                  "percent": 100
-            },
-            {
                   "goal": 0.4,
                   "total": 0.43100000000000005,
                   "contributors": 8,
@@ -25,27 +17,11 @@
                   "percent": 100
             },
             {
-                  "goal": 0.4,
-                  "total": 0.400000000002,
-                  "contributors": 4,
-                  "address": "86Z68Znx9FGgjvXqcDJfeuQ6S21h2EHqP617txPgXedkES6PDEaU8SyF4uUrGPW1X4h6p9hQ8U2XZWKUVLBFNpS5URedzme",
-                  "desc": "Spanking IRS-chan over her knee",
-                  "percent": 100
-            },
-            {
                   "goal": 0.5,
                   "total": 0.5,
                   "contributors": 2,
                   "address": "84rYVxTTyWkYUtu71HDqejJD2g4APut2wRr4RGbd4Ade3NYTfdkLoPo6erP1aM9ax5SHthCv1dCL8a5CHjYSp8jb6WBb4ZR",
                   "desc": "Sitting on a throne",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.502,
-                  "contributors": 5,
-                  "address": "84ASBdQraPtceff6qiazhfZ4yB8bZdmaRbDnGXfJBHRhXJXu1oqzLvgH4cVhF8higtN1BysTJdU9fCw9CkKuVjgL9d9azAq",
-                  "desc": "Blowing a dandelion",
                   "percent": 100
             },
             {
@@ -84,6 +60,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-13 19:25:55.796989"
+            "modified": "2021-09-13 19:25:55.796990"
       }
 ]
