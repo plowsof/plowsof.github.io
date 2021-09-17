@@ -25,7 +25,7 @@
                   "percent": 100
             },
             {
-                  "goal": 0.3,
+                  "goal": 0.4,
                   "total": 0.1,
                   "contributors": 1,
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
@@ -33,7 +33,7 @@
                   "percent": 33.333333333333336
             },
             {
-                  "goal": 0.5,
+                  "goal": 0.6,
                   "total": 0.01,
                   "contributors": 1,
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -41,7 +41,7 @@
                   "percent": 2.0
             },
             {
-                  "goal": 0.3,
+                  "goal": 0.4,
                   "total": 0,
                   "contributors": 0,
                   "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
@@ -68,6 +68,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-15 09:17:30.080630"
+            "modified": "2021-09-15 09:17:30.080631"
       }
 ]
