@@ -49,6 +49,14 @@
                   "percent": 0
             },
             {
+                  "goal": 0.6,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "89XgB2J2zcN4FpJYyzf6YeG8M6mW1iFAg49EP1qYFyaeALLmMKQqt3RX6xUdHU69jTgVTdqwJrW481ypcNHp7PUz2upKGYh",
+                  "desc": "Driving a boat recklessly",
+                  "percent": 0
+            },
+            {
                   "goal": 1,
                   "total": 0,
                   "contributors": 0,
@@ -60,6 +68,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-15 09:17:30.080628"
+            "modified": "2021-09-15 09:17:30.080630"
       }
 ]
