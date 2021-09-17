@@ -61,7 +61,7 @@
                   "total": 0,
                   "contributors": 0,
                   "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
-                  "desc": "Riding a sinking ship to dock<a href='sinkingship.png'>(Example)</a>",
+                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
                   "percent": 0
             },
             {
@@ -76,6 +76,6 @@
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-15 09:17:30.080633"
+            "modified": "2021-09-15 09:17:30.080634"
       }
 ]
