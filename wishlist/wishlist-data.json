@@ -47,11 +47,19 @@
                   "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
                   "desc": "Virgin-killer sweater",
                   "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
+                  "desc": "As a space marine on Mars",
+                  "percent": 0
             }
       ],
       {
             "total": 0.706473473159999,
             "contributors": 31,
-            "modified": "2021-09-15 09:17:30.080627"
+            "modified": "2021-09-15 09:17:30.080628"
       }
 ]
