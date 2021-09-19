@@ -41,7 +41,7 @@ async function getPrice(symbol){
 
 
 async function renderWishlist() {
-    console.log("hello world")
+    //console.log("hello world")
     let wishlist_xmr = await getWishlist("xmr");
     let wishlist_btc = await getWishlist("btc");
     let new_info = 0
