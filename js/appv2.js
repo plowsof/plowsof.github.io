@@ -66,13 +66,18 @@ async function renderWishlist() {
         let price_btc = await getPrice("btc") 
         price_btc = price_btc["bitcoin"]["usd"]
         price_xmr = price_xmr["monero"]["usd"]
+        //alert(wishlist_btc["addresses"][0]["address"])
         wishlist_btc["addresses"].forEach(address => {
+            //console.log(address)
             //console.log("Bitcoin address..")
             //find the btc address in the xmr list then += btc_totals
             //units are 'sats'(?)
             wishlist_xmr["wishlist"].forEach(wish => {
+                //console.log(wish)
                 //console.log("Monero address..")
                 if (wish.btc_address == address.address) {
+                    //alert(wish.btc_address)
+                    //alert(address.address)
                     wish.description = wish.description.replace(/<br>/g,"<br>        ")
                     let qrcheck = document.getElementById(`qr-${wish.address}`);
                     let qrchecked = (qrcheck && qrcheck.checked)?" checked":"";
@@ -137,7 +142,9 @@ async function renderWishlist() {
                     something = ""
                     let short_btc_add = something.concat(ahead1, " .. ", atail1) 
                     wish.btc_total = total_btc
-                    wish.xmr_total = wish.xmr_total.toFixed(2)
+                    //alert(wish.xmr_total)
+                    //wish.xmr_total = 0
+                    wish.xmr_total = parseFloat(wish.xmr_total.toFixed(2))
                     //wish.contributors += address.contributors
                     let ins_xmr = wish.history.length
                     let ins_btc = address.history.length
@@ -222,6 +229,8 @@ htmlSegment += ` ){
 
             })
         })
+        //console.log(html_tasks)
+        //console.log(html_events)
         let container = document.querySelector('.tasks');
         container.innerHTML = html_tasks;
         let container2 = document.querySelector('.events');
@@ -244,8 +253,6 @@ function CopyToClipboard(id)
 
 renderWishlist()
 setInterval('renderWishlist()',10000)
-
-
 
 
 
