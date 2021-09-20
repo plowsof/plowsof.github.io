@@ -222,9 +222,9 @@ htmlSegment += ` ){
 
             })
         })
-
-        let container = document.querySelector('.tasks');
-        container.innerHTML = html_tasks;
+        //temp fix (wasnt expecting to be funded so fast, im amazed!"
+        //let container = document.querySelector('.tasks');
+        //container.innerHTML = html_tasks;
         let container2 = document.querySelector('.events');
         container2.innerHTML = html_events;
 
