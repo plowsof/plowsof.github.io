@@ -6,9 +6,10 @@ async function getWishlist(symbol) {
     let url = ""
     if(symbol == "btc") {
         url = "https://raw.githubusercontent.com/plowsof/multi-crypto-freelance/main/json/wishlist-data-btc.json?uid=" + ran_int
-    } else {
+    } else if (symbol == "xmr"){
         url = "https://raw.githubusercontent.com/plowsof/multi-crypto-freelance/main/json/wishlist-data.json?uid=" + ran_int
-
+    } else {
+        url = "https://raw.githubusercontent.com/plowsof/multi-crypto-freelance/main/json/wishlist-data-bch.json?uid=" + ran_int
     }
     try {
         let res = await fetch(url)
@@ -44,6 +45,7 @@ async function renderWishlist() {
     //console.log("hello world")
     let wishlist_xmr = await getWishlist("xmr");
     let wishlist_btc = await getWishlist("btc");
+    let wishlist_bch = await getWishlist("bch");
     let new_info = 0
     //alert(wishlist_xmr["metadata"])
     if (wishlist_xmr["metadata"]["modified"] != modified_xmr) {
@@ -142,6 +144,9 @@ async function renderWishlist() {
                     something = ""
                     let short_btc_add = something.concat(ahead1, " .. ", atail1) 
                     wish.btc_total = total_btc
+                    ahead1 = wish.bch_address.substr(0,4)
+                    atail1 = wish.bch_address.substr(-4,4)
+                    let short_bch_add = something.concat(ahead1, " .. ", atail1)
                     //alert(wish.xmr_total)
                     //wish.xmr_total = 0
                     wish.xmr_total = parseFloat(wish.xmr_total.toFixed(2))
@@ -205,12 +210,14 @@ htmlSegment += ` ){
         raised: $${wish.total.toFixed(2)} / $${wish.goal_usd},
         contributors: ${wish.contributors},
         xmr: <span class="tooltip">${wish.xmr_total}<span class="tooltiptext">${xmr_history}</span></span>,
+        bch: <span class="tooltip">${wish.bch_total}<span class="tooltiptext">${btc_history}</span></span>,
         btc: <span class="tooltip">${wish.btc_total}<span class="tooltiptext">${btc_history}</span></span>,
         usd: ${wish.usd_total}
     },
     <span class="subtitle">Donate</span>:{
         <span class=comment><span class="brackets">'''</span>
         XMR: [<span class="xmr-subaddress" onclick=CopyToClipboard('${wish.xmr_address}')>${short_xmr_add}</span>] [<a href="${wish.qr_img_url_xmr}" data-lightbox="${wish.id}" data-title="Thank you 😘">QR</a>]
+        BCH: [<span class="btc-subaddress" onclick=CopyToClipboard('${wish.bch_address}')>${short_bch_add}</span>] [<a href="${wish.qr_img_url_btc}" data-lightbox="${wish.id}" data-title="Thank you 😘">QR</a>]
         BTC: [<span class="btc-subaddress" onclick=CopyToClipboard('${wish.btc_address}')>${short_btc_add}</span>] [<a href="${wish.qr_img_url_btc}" data-lightbox="${wish.id}" data-title="Thank you 😘">QR</a>]
         <span class="brackets">'''</span></span>
     }
