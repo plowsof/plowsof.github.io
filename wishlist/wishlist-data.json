@@ -1,31 +1,7 @@
 [
       [
             {
-                  "goal": 0.4,
-                  "total": 0.4,
-                  "contributors": 1,
-                  "address": "89gWT9S5mgx3gCJeADaS3Y57iBBot2QDVWaQweHbRxqphuHHfBJySiASCM8QRMRUhC6B2Mud2crtXHKCRkx96A8SJQAsUCk",
-                  "desc": "Headpatting doggirl Wownero",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.4,
-                  "total": 0.43100000000000005,
-                  "contributors": 8,
-                  "address": "84KDo28eAXk6hvRc1cZVmMGwpFT7bCEGG4VEXP2tigg6Ab7zYMBf45vGHg9hjUWqEUCimLrNhVMca1WFKTPnB4XRE35nn6L",
-                  "desc": "Walking doggirl Wownero-chan on a leash",
-                  "percent": 100
-            },
-            {
                   "goal": 0.5,
-                  "total": 0.5,
-                  "contributors": 5,
-                  "address": "8BQE9MKuMt23pfhG4zoH4x8prqb8w1nKVXoDE7yAGXTGFmtawVPA1aaAFvjj7XFjASZtMXuyfhY9uVBP8xxtBVRnRcLgTXe",
-                  "desc": "Dressed as a miner / mining",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.4,
                   "total": 0.1,
                   "contributors": 1,
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
@@ -33,7 +9,7 @@
                   "percent": 33.333333333333336
             },
             {
-                  "goal": 0.6,
+                  "goal": 0.75,
                   "total": 0.01,
                   "contributors": 1,
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -41,7 +17,7 @@
                   "percent": 2.0
             },
             {
-                  "goal": 0.4,
+                  "goal": 0.5,
                   "total": 0,
                   "contributors": 0,
                   "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
@@ -49,7 +25,7 @@
                   "percent": 0
             },
             {
-                  "goal": 0.6,
+                  "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
                   "address": "89XgB2J2zcN4FpJYyzf6YeG8M6mW1iFAg49EP1qYFyaeALLmMKQqt3RX6xUdHU69jTgVTdqwJrW481ypcNHp7PUz2upKGYh",
@@ -57,7 +33,7 @@
                   "percent": 0
             },
             {
-                  "goal": 0.7,
+                  "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
                   "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
@@ -65,7 +41,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1,
+                  "goal": 1.0,
                   "total": 0,
                   "contributors": 0,
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
@@ -76,6 +52,6 @@
       {
             "total": 0.8075034731919987,
             "contributors": 47,
-            "modified": "2021-09-19 16:38:53.731969"
+            "modified": "2021-09-19 16:38:53.731970"
       }
 ]
