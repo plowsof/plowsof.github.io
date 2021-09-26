@@ -2,11 +2,11 @@
       [
             {
                   "goal": 0.5,
-                  "total": 0.11,
-                  "contributors": 2,
+                  "total": 0.1143,
+                  "contributors": 3,
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
                   "desc": "Posed with an assault rifle",
-                  "percent": 22.0
+                  "percent": 22.86
             },
             {
                   "goal": 0.75,
@@ -52,6 +52,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-09-25 19:48:29.666348"
+            "modified": "2021-09-26 20:57:06.438708"
       }
 ]
