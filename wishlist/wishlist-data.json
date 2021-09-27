@@ -9,12 +9,20 @@
                   "percent": 100
             },
             {
+                  "goal": 0.75,
+                  "total": 0.21000000000000002,
+                  "contributors": 2,
+                  "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
+                  "desc": "Sitting at a computer assembling an FGC-9 w/ 3D printer in background",
+                  "percent": 28.000000000000004
+            },
+            {
                   "goal": 0.5,
-                  "total": 0.3143,
-                  "contributors": 4,
+                  "total": 0.1143,
+                  "contributors": 3,
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
                   "desc": "Posed with an assault rifle",
-                  "percent": 62.86000000000001
+                  "percent": 22.86
             },
             {
                   "goal": 0.75,
@@ -23,14 +31,6 @@
                   "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
                   "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
                   "percent": 13.333333333333334
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.01,
-                  "contributors": 1,
-                  "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
-                  "desc": "Sitting at a computer assembling an FGC-9 w/ 3D printer in background",
-                  "percent": 2.0
             },
             {
                   "goal": 0.75,
@@ -52,6 +52,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-09-27 05:34:28.852197"
+            "modified": "2021-09-27 05:38:05.995662"
       }
 ]
