@@ -2,6 +2,14 @@
       [
             {
                   "goal": 0.5,
+                  "total": 0.5,
+                  "contributors": 1,
+                  "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
+                  "desc": "Virgin-killer sweater",
+                  "percent": 100
+            },
+            {
+                  "goal": 0.5,
                   "total": 0.1143,
                   "contributors": 3,
                   "address": "85hAguPjyR9Rxh7gBbs37H6vWTwBpEb7Q3h3uScERzZD6PParihxrJbGdzaD7UhvskhYTnr34auVpdCLR9RYD5rQJA8bLxu",
@@ -25,14 +33,6 @@
                   "percent": 2.0
             },
             {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
-                  "desc": "Virgin-killer sweater",
-                  "percent": 0
-            },
-            {
                   "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
@@ -52,6 +52,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-09-26 20:57:06.438708"
+            "modified": "2021-09-27 05:33:05.588473"
       }
 ]
