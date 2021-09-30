@@ -33,17 +33,41 @@
                   "percent": 0
             },
             {
-                  "goal": 1.0,
+                  "goal": 1.2,
                   "total": 0,
                   "contributors": 0,
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
+                  "desc": "Lounging in a hammock",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
+                  "desc": "In a wedding dress",
+                  "percent": 0
+            },
+            {
+                  "goal": 1.2,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
+                  "desc": "Surveying her domain from atop the citadel",
                   "percent": 0
             }
       ],
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-09-28 19:30:04.961423"
+            "modified": "2021-09-28 19:30:04.961424
       }
 ]
