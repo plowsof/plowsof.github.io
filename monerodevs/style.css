@@ -1,0 +1,145 @@
+body{
+	background-color: #edeef0;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.tags{
+  display: flex; /* or inline-flex */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px
+  font-weight:200;
+
+}
+
+.tag{
+	border-style: solid;
+	padding: 4px;
+	border-radius: 4px;
+	border-color: grey;
+	font-size: 11px;
+}
+
+
+
+.card{
+	text-align: center;
+	    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+	background-color: white;
+	border-radius: 25px;
+	  position: relative;
+	  /*box-shadow: 4px 4px 5px grey;*/
+	  box-shadow:       0px 0px 8px 0px grey;
+	  width: 400px;
+	  padding:10px;
+    white-space: normal;
+
+}
+
+span.dono{
+  opacity:0; height:0; transition-delay:360000s; 
+  word-wrap:break-word;
+  display: block;
+  font-family: 'Courier New', monospace;
+
+}
+
+button.dono:focus + span.dono{
+opacity:1; 
+height:20px;
+transition-delay:0s;
+word-wrap:break-word;
+padding-bottom: 35px;
+
+}
+
+button.a{
+font-family: 'Open Sans', sans-serif;
+font-size:12px;
+}
+
+
+.container > div {
+  margin: 40px;
+}
+img.avatar {
+	  border-style: solid;
+  border-color: orange;
+  border-radius: 55px;
+  width:75px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: -60px;
+  left: 40%;
+}
+
+img.twitter{
+  border-radius: 50%;
+  width:20px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 10px; 
+}
+img.github{
+  border-radius: 50%;
+  width:20px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 25%; 
+}
+
+
+img.reddit{
+  border-radius: 50%;
+  width:20px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 10px; 
+}
+img.matrix{
+	border-radius: 50%;
+  width:50px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 25%; 
+}
+
+img.youtube{
+	border-radius: 50%;
+  width:20px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 6px;
+  right: 13%; 
+}
+img.www{
+  width:15px; /* you can use % */
+  height: auto;
+  position: absolute;
+  top: 3px;
+  left: 14%; 
+}
+#title{
+	text-align: center;
+	font-weight: bold;
+}
+
+button{
+  border-radius: 20px;
+  padding: 4px;
+  background-color: #edeef0;
+  color: black;
+box-shadow: 0px 0px 9px -1px #40FF2A;
+  font-size: 16px;
+}
