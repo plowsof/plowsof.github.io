@@ -7,6 +7,7 @@ looks something like:
 (avatar can be empty - i will get your twitter profile pic automatically - failing that - your github.. failing that.. a default icon
 
 ```
+{
     "name": "",
     "github": "",
     "reddit": "",
@@ -28,6 +29,7 @@ looks something like:
 example:
 
 ```
+{
     "name": "Seth Simmons",
     "github": "sethforprivacy",
     "reddit": "fort3hlulz",
