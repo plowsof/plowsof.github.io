@@ -3,7 +3,8 @@ Head of HR - Plowsof
 
 json files here https://github.com/plowsof/monerodevs.org (template is a work in progress)
 
-looks something like: (avatar can be empty - i will get your twitter profile pic automatically - failing that - your github.. failing that.. a default icon
+looks something like:    
+(avatar can be empty - i will get your twitter profile pic automatically - failing that - your github.. failing that.. a default icon
 
 ```
     "name": "",
