@@ -1,14 +1,6 @@
 [
       [
             {
-                  "goal": 0.5,
-                  "total": 0.5,
-                  "contributors": 1,
-                  "address": "83AHkBEtqoKEcXbWRLQNhVgpTifv59WQsjfsev99Jwp96unxEH5pXfyby7DDfEndHq4UvtUzJHZFd4sJKtUKAJPuBVZuCWn",
-                  "desc": "Virgin-killer sweater",
-                  "percent": 100
-            },
-            {
                   "goal": 0.75,
                   "total": 0.21000000000000002,
                   "contributors": 2,
@@ -52,6 +44,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-09-28 19:30:04.961422"
+            "modified": "2021-09-28 19:30:04.961423"
       }
 ]
