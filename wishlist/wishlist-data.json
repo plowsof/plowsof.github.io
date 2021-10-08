@@ -63,11 +63,19 @@
                   "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
                   "desc": "In a wedding dress",
                   "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "88cLP9MxxLcX9KkaryWC4FiTLsQaVseUzA9KZuaJBMRNPHunnuqSKJR8Rau286JrPHWKzs5FrRxAwbz5KCMjqYJ6BjVSUec",
+                  "desc": "Working out at the gym",
+                  "percent": 0
             }
       ],
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-10-06 05:19:57.718002"
+            "modified": "2021-10-06 05:19:57.718003"
       }
 ]
