@@ -10,6 +10,14 @@
             },
             {
                   "goal": 0.75,
+                  "total": 0.74999187,
+                  "contributors": 2,
+                  "address": "88cLP9MxxLcX9KkaryWC4FiTLsQaVseUzA9KZuaJBMRNPHunnuqSKJR8Rau286JrPHWKzs5FrRxAwbz5KCMjqYJ6BjVSUec",
+                  "desc": "Working out at the gym",
+                  "percent": 99.99891600000001
+            },
+            {
+                  "goal": 0.75,
                   "total": 0.21000000000000002,
                   "contributors": 2,
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -41,14 +49,6 @@
                   "percent": 18.666666666666668
             },
             {
-                  "goal": 0.75,
-                  "total": 0.10999187,
-                  "contributors": 1,
-                  "address": "88cLP9MxxLcX9KkaryWC4FiTLsQaVseUzA9KZuaJBMRNPHunnuqSKJR8Rau286JrPHWKzs5FrRxAwbz5KCMjqYJ6BjVSUec",
-                  "desc": "Working out at the gym",
-                  "percent": 14.665582666666669
-            },
-            {
                   "goal": 1.2,
                   "total": 0.01,
                   "contributors": 1,
@@ -76,6 +76,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-10-09 13:42:37.299465"
+            "modified": "2021-10-09 16:16:50.544204"
       }
 ]
