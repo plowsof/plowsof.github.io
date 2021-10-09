@@ -2,6 +2,14 @@
       [
             {
                   "goal": 0.75,
+                  "total": 0.75,
+                  "contributors": 1,
+                  "address": "89XgB2J2zcN4FpJYyzf6YeG8M6mW1iFAg49EP1qYFyaeALLmMKQqt3RX6xUdHU69jTgVTdqwJrW481ypcNHp7PUz2upKGYh",
+                  "desc": "Driving a boat recklessly",
+                  "percent": 100
+            },
+            {
+                  "goal": 0.75,
                   "total": 0.21000000000000002,
                   "contributors": 2,
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -31,14 +39,6 @@
                   "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
                   "desc": "Surveying her domain from atop the citadel",
                   "percent": 0.8333333333333334
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "89XgB2J2zcN4FpJYyzf6YeG8M6mW1iFAg49EP1qYFyaeALLmMKQqt3RX6xUdHU69jTgVTdqwJrW481ypcNHp7PUz2upKGYh",
-                  "desc": "Driving a boat recklessly",
-                  "percent": 0
             },
             {
                   "goal": 1.2,
@@ -76,6 +76,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-10-06 05:19:57.718003"
+            "modified": "2021-10-09 02:52:16.232984"
       }
 ]
