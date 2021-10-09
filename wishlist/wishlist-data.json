@@ -25,6 +25,14 @@
                   "percent": 24.86
             },
             {
+                  "goal": 0.5,
+                  "total": 0.1,
+                  "contributors": 1,
+                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
+                  "desc": "In a wedding dress",
+                  "percent": 20.0
+            },
+            {
                   "goal": 0.75,
                   "total": 0.14,
                   "contributors": 2,
@@ -57,14 +65,6 @@
                   "percent": 0
             },
             {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
-                  "desc": "In a wedding dress",
-                  "percent": 0
-            },
-            {
                   "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
@@ -76,6 +76,6 @@
       {
             "total": 0.8075044731919987,
             "contributors": 48,
-            "modified": "2021-10-09 02:52:16.232984"
+            "modified": "2021-10-09 04:12:46.932284"
       }
 ]
