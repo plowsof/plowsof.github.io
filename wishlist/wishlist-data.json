@@ -10,11 +10,11 @@
             },
             {
                   "goal": 0.75,
-                  "total": 0.74999187,
-                  "contributors": 2,
+                  "total": 0.76999187,
+                  "contributors": 3,
                   "address": "88cLP9MxxLcX9KkaryWC4FiTLsQaVseUzA9KZuaJBMRNPHunnuqSKJR8Rau286JrPHWKzs5FrRxAwbz5KCMjqYJ6BjVSUec",
                   "desc": "Working out at the gym",
-                  "percent": 99.99891600000001
+                  "percent": 100
             },
             {
                   "goal": 0.75,
@@ -74,8 +74,8 @@
             }
       ],
       {
-            "total": 1.2619101945629987,
-            "contributors": 54,
-            "modified": "2021-10-19 03:21:39.002219"
+            "total": 1.0619101945629987,
+            "contributors": 53,
+            "modified": "2021-10-19 03:26:14.758557"
       }
 ]
