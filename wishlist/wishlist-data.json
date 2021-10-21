@@ -2,22 +2,6 @@
       [
             {
                   "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 1,
-                  "address": "89XgB2J2zcN4FpJYyzf6YeG8M6mW1iFAg49EP1qYFyaeALLmMKQqt3RX6xUdHU69jTgVTdqwJrW481ypcNHp7PUz2upKGYh",
-                  "desc": "Driving a boat recklessly",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.76999187,
-                  "contributors": 3,
-                  "address": "88cLP9MxxLcX9KkaryWC4FiTLsQaVseUzA9KZuaJBMRNPHunnuqSKJR8Rau286JrPHWKzs5FrRxAwbz5KCMjqYJ6BjVSUec",
-                  "desc": "Working out at the gym",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.75,
                   "total": 0.21000000000000002,
                   "contributors": 2,
                   "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
@@ -76,6 +60,6 @@
       {
             "total": 1.0619101945629987,
             "contributors": 53,
-            "modified": "2021-10-19 03:26:14.758557"
+            "modified": "2021-10-19 03:26:14.758558"
       }
 ]
