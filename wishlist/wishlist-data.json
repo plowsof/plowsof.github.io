@@ -52,6 +52,22 @@
                   "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
+                  "address": "879HAHnrHW31fgi93AomH2dcYQaBgcacnGBxYgMTpovrBUvm4uyNGXyHQuXo57cpUiNHzzNvEqRVC8LJWCvm5AmUDJ7xdWr",
+                  "desc": "Giftwrapped in ribbons for Christmas",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "834Nn1XpReCi3ZT7ptqqw87b2o5cpiJJbRFuDTMff33hJP97wVB73Gg4PTCZUXcWssZ1HgSBK3zyD5fXjL4mAetE6kPQsax",
+                  "desc": "Naked under apron, in kitchen",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
                   "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
                   "desc": "Lounging in a hammock",
                   "percent": 0
@@ -60,6 +76,6 @@
       {
             "total": 1.0619101945629987,
             "contributors": 53,
-            "modified": "2021-10-19 03:26:14.758558"
+            "modified": "2021-10-19 03:26:14.758560"
       }
 ]
