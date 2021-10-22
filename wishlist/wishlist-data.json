@@ -9,6 +9,14 @@
                   "percent": 100
             },
             {
+                  "goal": 0.75,
+                  "total": 0.45,
+                  "contributors": 2,
+                  "address": "879HAHnrHW31fgi93AomH2dcYQaBgcacnGBxYgMTpovrBUvm4uyNGXyHQuXo57cpUiNHzzNvEqRVC8LJWCvm5AmUDJ7xdWr",
+                  "desc": "Giftwrapped in ribbons for Christmas",
+                  "percent": 60
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1243,
                   "contributors": 4,
@@ -47,14 +55,6 @@
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
                   "percent": 0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.45,
-                  "contributors": 2,
-                  "address": "879HAHnrHW31fgi93AomH2dcYQaBgcacnGBxYgMTpovrBUvm4uyNGXyHQuXo57cpUiNHzzNvEqRVC8LJWCvm5AmUDJ7xdWr",
-                  "desc": "Giftwrapped in ribbons for Christmas",
-                  "percent": 60
             },
             {
                   "goal": 0.75,
