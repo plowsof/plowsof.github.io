@@ -10,11 +10,11 @@
             },
             {
                   "goal": 0.75,
-                  "total": 0.45,
-                  "contributors": 2,
+                  "total": 0.75,
+                  "contributors": 3,
                   "address": "879HAHnrHW31fgi93AomH2dcYQaBgcacnGBxYgMTpovrBUvm4uyNGXyHQuXo57cpUiNHzzNvEqRVC8LJWCvm5AmUDJ7xdWr",
                   "desc": "Giftwrapped in ribbons for Christmas",
-                  "percent": 60
+                  "percent": 100
             },
             {
                   "goal": 0.5,
@@ -76,6 +76,6 @@
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-24 16:25:04.554248"
+            "modified": "2021-10-24 23:49:18.199680"
       }
 ]
