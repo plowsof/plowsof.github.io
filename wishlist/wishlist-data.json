@@ -79,11 +79,19 @@
                   "address": "83UL9gPchK2hZDxb7JBRep77LKQUi7SNoG1ukj2K3Jrz3dWchZmCg5tMeNJPYUGwBfYsS7BqH8iYM6iXx6gGQaWpAzjZq2V",
                   "desc": "Blade Runner scene <a href='bladerunner.jpg'>(Example)</a>",
                   "percent": 0
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "87oVYx3pyeZWX5JQrTUZhbCZt9o7mLSLoCKHHzx8Fpv8aj8o6meMVM8Eb22dVJkmWuYxUdqKiH24KWgWCgobbj9w4QTykME",
+                  "desc": "GTA art style",
+                  "percent": 0
             }
       ],
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-24 23:49:18.199681"
+            "modified": "2021-10-24 23:49:18.199682"
       }
 ]
