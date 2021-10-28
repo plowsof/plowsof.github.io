@@ -1,21 +1,5 @@
 [
-      [
-            {
-                  "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 3,
-                  "address": "8ADf1FkqBe5Ky7yu7aMsT3UKHBAmEou6AQk2TWZLdErRLsd7FbRUp5wiK1DWKAZpajjZkB78uRq8FNspq9kHKTBJ6jfZkQL",
-                  "desc": "Sitting at a computer assembling an FGC-9 w/ 3D printer in background",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.5,
-                  "contributors": 1,
-                  "address": "87oVYx3pyeZWX5JQrTUZhbCZt9o7mLSLoCKHHzx8Fpv8aj8o6meMVM8Eb22dVJkmWuYxUdqKiH24KWgWCgobbj9w4QTykME",
-                  "desc": "GTA art style",
-                  "percent": 100
-            },
+      [         
             {
                   "goal": 0.5,
                   "total": 0.1243,
@@ -84,6 +68,6 @@
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-27 18:09:15.474775"
+            "modified": "2021-10-27 18:09:15.474776"
       }
 ]
