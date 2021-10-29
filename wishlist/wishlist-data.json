@@ -1,5 +1,13 @@
 [
-      [         
+      [
+            {
+                  "goal": 0.75,
+                  "total": 0.19,
+                  "contributors": 1,
+                  "address": "83UL9gPchK2hZDxb7JBRep77LKQUi7SNoG1ukj2K3Jrz3dWchZmCg5tMeNJPYUGwBfYsS7BqH8iYM6iXx6gGQaWpAzjZq2V",
+                  "desc": "Blade Runner scene <a href='bladerunner.jpg'>(Example)</a>",
+                  "percent": 25.333333333333336
+            },
             {
                   "goal": 0.5,
                   "total": 0.1243,
@@ -55,19 +63,11 @@
                   "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
                   "desc": "Lounging in a hammock",
                   "percent": 0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "83UL9gPchK2hZDxb7JBRep77LKQUi7SNoG1ukj2K3Jrz3dWchZmCg5tMeNJPYUGwBfYsS7BqH8iYM6iXx6gGQaWpAzjZq2V",
-                  "desc": "Blade Runner scene <a href='bladerunner.jpg'>(Example)</a>",
-                  "percent": 0
             }
       ],
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-27 18:09:15.474776"
+            "modified": "2021-10-29 09:28:00.690852"
       }
 ]
