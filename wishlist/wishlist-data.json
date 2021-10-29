@@ -18,11 +18,11 @@
             },
             {
                   "goal": 0.5,
-                  "total": 0.102955,
-                  "contributors": 3,
+                  "total": 0.10337500000000001,
+                  "contributors": 4,
                   "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
                   "desc": "In a wedding dress",
-                  "percent": 20.591
+                  "percent": 20.675
             },
             {
                   "goal": 0.75,
@@ -68,6 +68,6 @@
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-29 11:18:40.138994"
+            "modified": "2021-10-29 14:19:15.127972"
       }
 ]
