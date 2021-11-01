@@ -2,11 +2,11 @@
       [
             {
                   "goal": 0.75,
-                  "total": 0.3,
-                  "contributors": 2,
+                  "total": 0.35655596384599997,
+                  "contributors": 3,
                   "address": "83UL9gPchK2hZDxb7JBRep77LKQUi7SNoG1ukj2K3Jrz3dWchZmCg5tMeNJPYUGwBfYsS7BqH8iYM6iXx6gGQaWpAzjZq2V",
                   "desc": "Blade Runner scene <a href='bladerunner.jpg'>(Example)</a>",
-                  "percent": 40.0
+                  "percent": 47.54079517946666
             },
             {
                   "goal": 0.5,
@@ -68,6 +68,6 @@
       {
             "total": 0.66191940546399,
             "contributors": 54,
-            "modified": "2021-10-29 14:19:15.127972"
+            "modified": "2021-11-01 13:10:26.639814"
       }
 ]
