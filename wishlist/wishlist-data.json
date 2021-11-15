@@ -9,6 +9,14 @@
                   "percent": 100
             },
             {
+                  "goal": 1.2,
+                  "total": 1.2,
+                  "contributors": 2,
+                  "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
+                  "desc": "Surveying her domain from atop the citadel",
+                  "percent": 100
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1243,
                   "contributors": 4,
@@ -31,14 +39,6 @@
                   "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
                   "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
                   "percent": 18.666666666666668
-            },
-            {
-                  "goal": 1.2,
-                  "total": 0.01,
-                  "contributors": 1,
-                  "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
-                  "desc": "Surveying her domain from atop the citadel",
-                  "percent": 0.8333333333333334
             },
             {
                   "goal": 1.2,
@@ -68,6 +68,6 @@
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-15 18:31:00.572527"
+            "modified": "2021-11-15 23:05:52.490465"
       }
 ]
