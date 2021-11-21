@@ -17,6 +17,14 @@
                   "percent": 100
             },
             {
+                  "goal": 0.75,
+                  "total": 0.75,
+                  "contributors": 1,
+                  "address": "834Nn1XpReCi3ZT7ptqqw87b2o5cpiJJbRFuDTMff33hJP97wVB73Gg4PTCZUXcWssZ1HgSBK3zyD5fXjL4mAetE6kPQsax",
+                  "desc": "Naked under apron, in kitchen",
+                  "percent": 100
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1243,
                   "contributors": 4,
@@ -52,14 +60,6 @@
                   "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
-                  "address": "834Nn1XpReCi3ZT7ptqqw87b2o5cpiJJbRFuDTMff33hJP97wVB73Gg4PTCZUXcWssZ1HgSBK3zyD5fXjL4mAetE6kPQsax",
-                  "desc": "Naked under apron, in kitchen",
-                  "percent": 0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
                   "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
                   "desc": "Lounging in a hammock",
                   "percent": 0
@@ -68,6 +68,6 @@
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-15 23:05:52.490465"
+            "modified": "2021-11-21 02:14:35.778650"
       }
 ]
