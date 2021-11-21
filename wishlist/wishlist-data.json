@@ -25,6 +25,14 @@
                   "percent": 100
             },
             {
+                  "goal": 0.75,
+                  "total": 0.75,
+                  "contributors": 1,
+                  "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
+                  "desc": "Lounging in a hammock",
+                  "percent": 100
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1243,
                   "contributors": 4,
@@ -55,19 +63,11 @@
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
                   "percent": 0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
-                  "desc": "Lounging in a hammock",
-                  "percent": 0
             }
       ],
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-21 02:14:35.778650"
+            "modified": "2021-11-21 02:16:47.902900"
       }
 ]
