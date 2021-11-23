@@ -1,35 +1,11 @@
 [
       [
             {
-                  "goal": 0.75,
-                  "total": 0.756555963846,
-                  "contributors": 5,
-                  "address": "83UL9gPchK2hZDxb7JBRep77LKQUi7SNoG1ukj2K3Jrz3dWchZmCg5tMeNJPYUGwBfYsS7BqH8iYM6iXx6gGQaWpAzjZq2V",
-                  "desc": "Blade Runner scene <a href='bladerunner.jpg'>(Example)</a>",
-                  "percent": 100
-            },
-            {
                   "goal": 1.2,
                   "total": 1.2,
                   "contributors": 2,
                   "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
                   "desc": "Surveying her domain from atop the citadel",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 1,
-                  "address": "834Nn1XpReCi3ZT7ptqqw87b2o5cpiJJbRFuDTMff33hJP97wVB73Gg4PTCZUXcWssZ1HgSBK3zyD5fXjL4mAetE6kPQsax",
-                  "desc": "Naked under apron, in kitchen",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 1,
-                  "address": "86Vv1LMfSapYJzwwLg52GHcQfwbrCfQMqdpxfvuycWLCBa8qcW5uEpYZGGXvPbC7dTfjVDdyKUjUmGgVvd12EjGm8iXSdSS",
-                  "desc": "Lounging in a hammock",
                   "percent": 100
             },
             {
@@ -68,6 +44,6 @@
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-21 03:44:07.776690"
+            "modified": "2021-11-21 03:44:07.776691"
       }
 ]
