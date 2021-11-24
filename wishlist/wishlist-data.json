@@ -39,11 +39,43 @@
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
                   "percent": 0
-            }
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
+                  "desc": "In hula outfit hitting a big drum (POOMPA)",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "877X7ankRF7FRWFUfSQz8egxudPDMN3QgK6RpPZF3ZMURWdDJ3uYb6GJZ47agpsnct3sT9piv1RVfbn6wWsj46YNT4yw5kp",
+                  "desc": "Shredding an electric guitar",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
+                  "desc": "School swimsuit",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.25,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "87jK4dt1qBMFpp2L9yq9sPjCz2bevweqA58sohQDMLqC9m56VvsDYaEFg4soJ8DitLEy21UqL7gqh8eHyhx3M7RMDLGNyie",
+                  "desc": "'I Want You!' style propaganda poster <a href='iwantyou.jpg'>(Example)</a>",
+                  "percent": 0
+            } 
       ],
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-21 03:44:07.776691"
+            "modified": "2021-11-21 03:44:07.776692"
       }
 ]
