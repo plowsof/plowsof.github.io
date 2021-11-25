@@ -17,20 +17,20 @@
                   "percent": 72.85999999999999
             },
             {
+                  "goal": 0.75,
+                  "total": 0.24000000000000002,
+                  "contributors": 3,
+                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
+                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
+                  "percent": 32.0
+            },
+            {
                   "goal": 0.5,
                   "total": 0.10337500000000001,
                   "contributors": 4,
                   "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
                   "desc": "In a wedding dress",
                   "percent": 20.675
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.14,
-                  "contributors": 2,
-                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
-                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
-                  "percent": 18.666666666666668
             },
             {
                   "goal": 1.2,
@@ -71,11 +71,11 @@
                   "address": "87jK4dt1qBMFpp2L9yq9sPjCz2bevweqA58sohQDMLqC9m56VvsDYaEFg4soJ8DitLEy21UqL7gqh8eHyhx3M7RMDLGNyie",
                   "desc": "'I Want You!' style propaganda poster <a href='iwantyou.jpg'>(Example)</a>",
                   "percent": 0
-            } 
+            }
       ],
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-21 03:44:07.776692"
+            "modified": "2021-11-25 18:59:47.792439"
       }
 ]
