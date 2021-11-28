@@ -17,6 +17,14 @@
                   "percent": 100
             },
             {
+                  "goal": 0.25,
+                  "total": 0.25,
+                  "contributors": 1,
+                  "address": "87jK4dt1qBMFpp2L9yq9sPjCz2bevweqA58sohQDMLqC9m56VvsDYaEFg4soJ8DitLEy21UqL7gqh8eHyhx3M7RMDLGNyie",
+                  "desc": "'I Want You!' style propaganda poster <a href='iwantyou.jpg'>(Example)</a>",
+                  "percent": 100
+            },
+            {
                   "goal": 0.75,
                   "total": 0.24000000000000002,
                   "contributors": 3,
@@ -63,19 +71,11 @@
                   "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
                   "desc": "School swimsuit",
                   "percent": 0
-            },
-            {
-                  "goal": 0.25,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "87jK4dt1qBMFpp2L9yq9sPjCz2bevweqA58sohQDMLqC9m56VvsDYaEFg4soJ8DitLEy21UqL7gqh8eHyhx3M7RMDLGNyie",
-                  "desc": "'I Want You!' style propaganda poster <a href='iwantyou.jpg'>(Example)</a>",
-                  "percent": 0
             }
       ],
       {
             "total": 1.66191940546399,
             "contributors": 55,
-            "modified": "2021-11-28 00:14:48.947024"
+            "modified": "2021-11-28 00:33:46.567517"
       }
 ]
