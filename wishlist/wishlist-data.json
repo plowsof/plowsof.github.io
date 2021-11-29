@@ -72,9 +72,17 @@
                   "desc": "School swimsuit",
                   "percent": 0
             }
+            {
+                  "goal": 3.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
+                  "desc": "Cosplay Photoshoot",
+                  "percent": 0
+            }
       ],
       {
-            "total": 1.66191940546399,
+            "total": 1.66191940546400,
             "contributors": 55,
             "modified": "2021-11-28 00:33:46.567517"
       }
