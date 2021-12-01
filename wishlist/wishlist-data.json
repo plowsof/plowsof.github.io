@@ -17,14 +17,6 @@
                   "percent": 100
             },
             {
-                  "goal": 0.25,
-                  "total": 0.25,
-                  "contributors": 1,
-                  "address": "87jK4dt1qBMFpp2L9yq9sPjCz2bevweqA58sohQDMLqC9m56VvsDYaEFg4soJ8DitLEy21UqL7gqh8eHyhx3M7RMDLGNyie",
-                  "desc": "'I Want You!' style propaganda poster <a href='iwantyou.jpg'>(Example)</a>",
-                  "percent": 100
-            },
-            {
                   "goal": 0.75,
                   "total": 0.24000000000000002,
                   "contributors": 3,
@@ -84,6 +76,6 @@
       {
             "total": 1.66191940546400,
             "contributors": 55,
-            "modified": "2021-11-28 00:33:46.567518"
+            "modified": "2021-11-28 00:33:46.567519"
       }
 ]
