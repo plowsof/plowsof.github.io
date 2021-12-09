@@ -33,19 +33,19 @@
                   "percent": 20.675
             },
             {
+                  "goal": 0.5,
+                  "total": 0.1,
+                  "contributors": 1,
+                  "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
+                  "desc": "In hula outfit hitting a big drum (POOMPA)",
+                  "percent": 20.0
+            },
+            {
                   "goal": 1.2,
                   "total": 0,
                   "contributors": 0,
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
-                  "percent": 0
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
-                  "desc": "In hula outfit hitting a big drum (POOMPA)",
                   "percent": 0
             },
             {
@@ -76,6 +76,6 @@
       {
             "total": 1.691939295465,
             "contributors": 56,
-            "modified": "2021-12-09 01:43:54.631158"
+            "modified": "2021-12-09 04:56:43.330157"
       }
 ]
