@@ -2,8 +2,8 @@
       [
             {
                   "goal": 1.2,
-                  "total": 1.2,
-                  "contributors": 2,
+                  "total": 1.4,
+                  "contributors": 3,
                   "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
                   "desc": "Surveying her domain from atop the citadel",
                   "percent": 100
@@ -76,6 +76,6 @@
       {
             "total": 1.691939295465,
             "contributors": 56,
-            "modified": "2021-12-09 04:56:43.330157"
+            "modified": "2021-12-13 08:25:36.984714"
       }
 ]
