@@ -29,7 +29,7 @@
                   "total": 0.1,
                   "contributors": 1,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
-                  "desc": "In hula outfit hitting a big drum (POOMPA)",
+                  "desc": "In a hula outfit hitting a big drum (POOMPA)",
                   "percent": 20.0
             },
             {
@@ -69,7 +69,7 @@
                   "total": 0,
                   "contributors": 0,
                   "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
-                  "desc": "Wearing a labcoat examining flasks (MRL Themed)",
+                  "desc": "Wearing a labcoat examining flasks (MRL themed)",
                   "percent": 0
             },
             {
@@ -93,13 +93,13 @@
                   "total": 0,
                   "contributors": 0,
                   "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
-                  "desc": "As a knight facing off against an enourmous foe (fantasy style) <a href='moneroknight.jpg'>(Example)</a>",
+                  "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
                   "percent": 0
             }
       ],
       {
             "total": 2.173757113842,
             "contributors": 57,
-            "modified": "2021-12-23 22:09:28.362128"
+            "modified": "2021-12-23 22:09:28.362129"
       }
 ]
