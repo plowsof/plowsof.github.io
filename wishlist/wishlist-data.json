@@ -63,11 +63,43 @@
                   "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
                   "desc": "Cosplay Photoshoot",
                   "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
+                  "desc": "Wearing a labcoat examining flasks (MRL Themed)",
+                  "percent": 0
+            },
+            {
+                  "goal": 1.2,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "87M7jiHiYBzSa9jbkG76Jh9S6NYampzm5AE63PpbpGg3AGtzgkrLZTwKa4DYpHQ5tmaioZdEAUKCQLix498GvWUkS4d3tkL",
+                  "desc": "As a rising phoenix girl",
+                  "percent": 0
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "86pbsdUeZrxJRR6RZgu4nZUTZF37A3EJBFY1VaC8UTpWR8Sro45xGGkXcdCb4Yo1YsH52NJyzn9RceosTxQSctHVT4tphXi",
+                  "desc": "Pregnant",
+                  "percent": 0
+            },
+            {
+                  "goal": 2,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
+                  "desc": "As a knight facing off against an enourmous foe (fantasy style)<a href='moneroknight.jpg'>(Example)</a>",
+                  "percent": 0
             }
       ],
       {
             "total": 2.173757113842,
             "contributors": 57,
-            "modified": "2021-12-23 22:09:28.362125"
+            "modified": "2021-12-23 22:09:28.362127"
       }
 ]
