@@ -81,14 +81,6 @@
                   "percent": 0
             },
             {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "86pbsdUeZrxJRR6RZgu4nZUTZF37A3EJBFY1VaC8UTpWR8Sro45xGGkXcdCb4Yo1YsH52NJyzn9RceosTxQSctHVT4tphXi",
-                  "desc": "Pregnant",
-                  "percent": 0
-            },
-            {
                   "goal": 2,
                   "total": 0,
                   "contributors": 0,
@@ -100,6 +92,6 @@
       {
             "total": 2.173757113842,
             "contributors": 57,
-            "modified": "2021-12-23 22:09:28.362129"
+            "modified": "2021-12-23 22:09:28.362130"
       }
 ]
