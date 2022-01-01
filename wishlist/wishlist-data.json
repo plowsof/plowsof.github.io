@@ -33,6 +33,14 @@
                   "percent": 20.0
             },
             {
+                  "goal": 3.5,
+                  "total": 0.01337,
+                  "contributors": 1,
+                  "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
+                  "desc": "Cosplay Photoshoot",
+                  "percent": 0.382
+            },
+            {
                   "goal": 1.2,
                   "total": 0,
                   "contributors": 0,
@@ -54,14 +62,6 @@
                   "contributors": 0,
                   "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
                   "desc": "School swimsuit",
-                  "percent": 0
-            },
-            {
-                  "goal": 3.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
-                  "desc": "Cosplay Photoshoot",
                   "percent": 0
             },
             {
@@ -92,6 +92,6 @@
       {
             "total": 2.273757113842,
             "contributors": 58,
-            "modified": "2021-12-29 16:03:13.201885"
+            "modified": "2022-01-01 13:04:35.685481"
       }
 ]
