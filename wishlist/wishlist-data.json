@@ -17,20 +17,20 @@
                   "percent": 100
             },
             {
+                  "goal": 0.5,
+                  "total": 0.49757633769000004,
+                  "contributors": 6,
+                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
+                  "desc": "In a wedding dress",
+                  "percent": 99.515267538
+            },
+            {
                   "goal": 0.75,
                   "total": 0.24000000000000002,
                   "contributors": 3,
                   "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
                   "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
                   "percent": 32.0
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.10757633769000001,
-                  "contributors": 5,
-                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
-                  "desc": "In a wedding dress",
-                  "percent": 21.515267538000003
             },
             {
                   "goal": 0.5,
@@ -108,6 +108,6 @@
       {
             "total": 2.273757113843,
             "contributors": 58,
-            "modified": "2022-01-05 23:36:21.020674"
+            "modified": "2022-01-05 23:41:43.249572"
       }
 ]
