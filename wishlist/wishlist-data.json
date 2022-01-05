@@ -95,10 +95,18 @@
                   "address": "86VtCGsvxdSBfstD4c24kVJDkE9kfJVeiUWpBH2Hmj4NJ4JFBwAJgzbFNBsQZWYsmtiovCNhdfC32Ca8d9ez3LEn2RkHp2Y",
                   "desc": "Sexy nurse",
                   "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "8ABb3dqKYWYWgq9PRxpRp28CrSxRfNZegFD5zYHxEfSgg5feUAxCSZL22uZp8gUwZdXzUxwesJmFEBq8XsofxoA6QKyZY1u",
+                  "desc": "Riding lightcycle (Tron style)",
+                  "percent": 0
             }
       ],
       {
-            "total": 2.273757113842,
+            "total": 2.273757113843,
             "contributors": 58,
             "modified": "2022-01-01 13:04:35.685483"
       }
