@@ -87,7 +87,7 @@
                   "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
                   "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
                   "percent": 0
-            }
+            },
             {
                   "goal": 0.5,
                   "total": 0,
@@ -100,6 +100,6 @@
       {
             "total": 2.273757113842,
             "contributors": 58,
-            "modified": "2022-01-01 13:04:35.685482"
+            "modified": "2022-01-01 13:04:35.685483"
       }
 ]
