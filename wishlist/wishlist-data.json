@@ -88,10 +88,18 @@
                   "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
                   "percent": 0
             }
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "86VtCGsvxdSBfstD4c24kVJDkE9kfJVeiUWpBH2Hmj4NJ4JFBwAJgzbFNBsQZWYsmtiovCNhdfC32Ca8d9ez3LEn2RkHp2Y",
+                  "desc": "Sexy nurse",
+                  "percent": 0
+            }
       ],
       {
             "total": 2.273757113842,
             "contributors": 58,
-            "modified": "2022-01-01 13:04:35.685481"
+            "modified": "2022-01-01 13:04:35.685482"
       }
 ]
