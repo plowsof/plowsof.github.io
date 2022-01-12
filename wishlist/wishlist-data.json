@@ -1,30 +1,6 @@
 [
       [
             {
-                  "goal": 1.2,
-                  "total": 1.4,
-                  "contributors": 3,
-                  "address": "89TfAXWceaGKcAWUQ2Mo9Z9XYPcvGJxYHKBwVSpW4o17Lz3jCgfGGyQ8vGcnP2bNAqHiagRFGxuNEZjTx3qLfUEwQAKkXQv",
-                  "desc": "Surveying her domain from atop the citadel",
-                  "percent": 100
-            },
-            {
-                  "goal": 1,
-                  "total": 1.0,
-                  "contributors": 1,
-                  "address": "8ABb3dqKYWYWgq9PRxpRp28CrSxRfNZegFD5zYHxEfSgg5feUAxCSZL22uZp8gUwZdXzUxwesJmFEBq8XsofxoA6QKyZY1u",
-                  "desc": "Riding lightcycle (Tron style)",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.49757633769000004,
-                  "contributors": 6,
-                  "address": "8AYDb7tinrEYyXVdqGaG1tijfDvf3poRM7Epwpzq557L716Fe3HsMgDSD6PoRxLodpMG6yqMtx5Z3NwTPwwzJxRs5a4NFKN",
-                  "desc": "In a wedding dress",
-                  "percent": 99.515267538
-            },
-            {
                   "goal": 0.75,
                   "total": 0.24000000000000002,
                   "contributors": 3,
@@ -108,6 +84,6 @@
       {
             "total": 2.273757113843,
             "contributors": 58,
-            "modified": "2022-01-06 11:32:56.087177"
+            "modified": "2022-01-06 11:32:56.087178"
       }
 ]
