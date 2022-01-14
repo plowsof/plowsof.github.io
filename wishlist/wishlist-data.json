@@ -10,6 +10,14 @@
             },
             {
                   "goal": 0.5,
+                  "total": 0.10200000000000001,
+                  "contributors": 2,
+                  "address": "86VtCGsvxdSBfstD4c24kVJDkE9kfJVeiUWpBH2Hmj4NJ4JFBwAJgzbFNBsQZWYsmtiovCNhdfC32Ca8d9ez3LEn2RkHp2Y",
+                  "desc": "Sexy nurse",
+                  "percent": 20.400000000000002
+            },
+            {
+                  "goal": 0.5,
                   "total": 0.1,
                   "contributors": 1,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
@@ -23,14 +31,6 @@
                   "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
                   "desc": "Wearing a labcoat examining flasks (MRL themed)",
                   "percent": 13.333333333333334
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.002,
-                  "contributors": 1,
-                  "address": "86VtCGsvxdSBfstD4c24kVJDkE9kfJVeiUWpBH2Hmj4NJ4JFBwAJgzbFNBsQZWYsmtiovCNhdfC32Ca8d9ez3LEn2RkHp2Y",
-                  "desc": "Sexy nurse",
-                  "percent": 0.4
             },
             {
                   "goal": 3.5,
@@ -84,6 +84,6 @@
       {
             "total": 0.173757,
             "contributors": 58,
-            "modified": "2022-01-14 14:04:36.557888"
+            "modified": "2022-01-14 14:17:05.423205"
       }
 ]
