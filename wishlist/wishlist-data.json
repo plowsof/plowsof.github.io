@@ -25,6 +25,14 @@
                   "percent": 20.0
             },
             {
+                  "goal": 1,
+                  "total": 0.2,
+                  "contributors": 1,
+                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
+                  "desc": "School swimsuit",
+                  "percent": 20.0
+            },
+            {
                   "goal": 0.75,
                   "total": 0.1,
                   "contributors": 1,
@@ -65,14 +73,6 @@
                   "percent": 0
             },
             {
-                  "goal": 1,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
-                  "desc": "School swimsuit",
-                  "percent": 0
-            },
-            {
                   "goal": 1.2,
                   "total": 0,
                   "contributors": 0,
@@ -84,6 +84,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-01-31 08:43:27.510934"
+            "modified": "2022-02-04 15:16:24.203888"
       }
 ]
