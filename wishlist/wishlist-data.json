@@ -2,11 +2,11 @@
       [
             {
                   "goal": 1.2,
-                  "total": 0.6,
-                  "contributors": 1,
+                  "total": 0.8,
+                  "contributors": 2,
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
-                  "percent": 50.0
+                  "percent": 66.66666666666667
             },
             {
                   "goal": 0.75,
@@ -84,6 +84,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-06 11:01:04.116816"
+            "modified": "2022-02-06 22:55:33.168344"
       }
 ]
