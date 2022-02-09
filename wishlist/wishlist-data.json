@@ -9,6 +9,14 @@
                   "percent": 66.66666666666667
             },
             {
+                  "goal": 1,
+                  "total": 0.4,
+                  "contributors": 2,
+                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
+                  "desc": "School swimsuit",
+                  "percent": 40.0
+            },
+            {
                   "goal": 0.75,
                   "total": 0.24000000000000002,
                   "contributors": 3,
@@ -30,14 +38,6 @@
                   "contributors": 1,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
                   "desc": "In a hula outfit hitting a big drum (POOMPA)",
-                  "percent": 20.0
-            },
-            {
-                  "goal": 1,
-                  "total": 0.2,
-                  "contributors": 1,
-                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
-                  "desc": "School swimsuit",
                   "percent": 20.0
             },
             {
@@ -84,6 +84,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-06 22:55:33.168344"
+            "modified": "2022-02-09 22:10:27.450726"
       }
 ]
