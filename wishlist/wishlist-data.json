@@ -1,6 +1,14 @@
 [
       [
             {
+                  "goal": 0.75,
+                  "total": 0.75,
+                  "contributors": 4,
+                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
+                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
+                  "percent": 100
+            },
+            {
                   "goal": 1.2,
                   "total": 0.8,
                   "contributors": 2,
@@ -15,14 +23,6 @@
                   "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
                   "desc": "School swimsuit",
                   "percent": 40.0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.24000000000000002,
-                  "contributors": 3,
-                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
-                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
-                  "percent": 32.0
             },
             {
                   "goal": 0.5,
@@ -84,6 +84,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-09 22:10:27.450726"
+            "modified": "2022-02-09 22:12:03.482196"
       }
 ]
