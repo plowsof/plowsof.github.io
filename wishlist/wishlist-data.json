@@ -2,18 +2,10 @@
       [
             {
                   "goal": 1.2,
-                  "total": 2.0,
-                  "contributors": 3,
+                  "total": 2.2,
+                  "contributors": 4,
                   "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
                   "desc": "As a space marine on Mars",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 2,
-                  "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
-                  "desc": "Wearing a labcoat examining flasks (MRL themed)",
                   "percent": 100
             },
             {
@@ -47,6 +39,14 @@
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
                   "desc": "In a hula outfit hitting a big drum (POOMPA)",
                   "percent": 20.0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0.1,
+                  "contributors": 1,
+                  "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
+                  "desc": "Wearing a labcoat examining flasks (MRL themed)",
+                  "percent": 13.333333333333334
             },
             {
                   "goal": 2,
@@ -84,6 +84,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-09 22:14:16.238562"
+            "modified": "2022-02-09 22:15:18.175775"
       }
 ]
