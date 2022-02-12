@@ -25,20 +25,20 @@
                   "percent": 30.400000000000006
             },
             {
+                  "goal": 2,
+                  "total": 0.463337,
+                  "contributors": 3,
+                  "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
+                  "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
+                  "percent": 23.16685
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1,
                   "contributors": 1,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
                   "desc": "In a hula outfit hitting a big drum (POOMPA)",
                   "percent": 20.0
-            },
-            {
-                  "goal": 2,
-                  "total": 0.163337,
-                  "contributors": 2,
-                  "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
-                  "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
-                  "percent": 7.5
             },
             {
                   "goal": 3.5,
@@ -68,6 +68,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-09 22:24:47.819695"
+            "modified": "2022-02-09 22:24:47.819697"
       }
 ]
