@@ -1,19 +1,11 @@
 [
       [
             {
-                  "goal": 1.2,
-                  "total": 2,
-                  "contributors": 4,
-                  "address": "84XA8L3RwxTDbsBSUzauC57evRrE5hDo1apk4pxbtEVpcJ4tnKHFyz3X8Us8T1EGrV8J1AAYCpk4DYTk1eKnKZpHUYEX9GQ",
-                  "desc": "As a space marine on Mars",
-                  "percent": 100
-            },
-            {
                   "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 2,
-                  "address": "8A6aseuaH2Xbvxmrow8itpDy4Fw48KSyULeYvKkzogbcAPj9Qn4iK7fTbF1ppnWL5tTA2EcFc5qZfDp4wsQMjq81Qjwz7xA",
-                  "desc": "Wearing a labcoat examining flasks (MRL themed)",
+                  "total": 0.77337,
+                  "contributors": 4,
+                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
+                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
                   "percent": 100
             },
             {
@@ -23,14 +15,6 @@
                   "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
                   "desc": "School swimsuit",
                   "percent": 20.0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.75,
-                  "contributors": 4,
-                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
-                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
-                  "percent": 95
             },
             {
                   "goal": 0.5,
@@ -84,6 +68,6 @@
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-09 22:24:47.819694"
+            "modified": "2022-02-09 22:24:47.819695"
       }
 ]
