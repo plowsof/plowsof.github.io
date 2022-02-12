@@ -9,14 +9,6 @@
                   "percent": 100
             },
             {
-                  "goal": 1,
-                  "total": 0.21587,
-                  "contributors": 3,
-                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
-                  "desc": "School swimsuit",
-                  "percent": 20.0
-            },
-            {
                   "goal": 0.5,
                   "total": 0.15200000000000002,
                   "contributors": 3,
@@ -31,6 +23,14 @@
                   "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
                   "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
                   "percent": 23.16685
+            },
+            {
+                  "goal": 1,
+                  "total": 0.21587,
+                  "contributors": 3,
+                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
+                  "desc": "School swimsuit",
+                  "percent": 20.0
             },
             {
                   "goal": 0.5,
@@ -49,25 +49,25 @@
                   "percent": 3.4331456971714287
             },
             {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "877X7ankRF7FRWFUfSQz8egxudPDMN3QgK6RpPZF3ZMURWdDJ3uYb6GJZ47agpsnct3sT9piv1RVfbn6wWsj46YNT4yw5kp",
-                  "desc": "Shredding an electric guitar",
-                  "percent": 0
-            },
-            {
                   "goal": 1.2,
                   "total": 0.01337,
                   "contributors": 1,
                   "address": "87M7jiHiYBzSa9jbkG76Jh9S6NYampzm5AE63PpbpGg3AGtzgkrLZTwKa4DYpHQ5tmaioZdEAUKCQLix498GvWUkS4d3tkL",
                   "desc": "As a rising phoenix girl",
                   "percent": 1
+            },
+            {
+                  "goal": 0.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "877X7ankRF7FRWFUfSQz8egxudPDMN3QgK6RpPZF3ZMURWdDJ3uYb6GJZ47agpsnct3sT9piv1RVfbn6wWsj46YNT4yw5kp",
+                  "desc": "Shredding an electric guitar",
+                  "percent": 0
             }
       ],
       {
             "total": 1.223757,
             "contributors": 60,
-            "modified": "2022-02-09 22:24:47.819697"
+            "modified": "2022-02-12 18:48:47.031276"
       }
 ]
