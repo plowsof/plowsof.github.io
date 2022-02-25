@@ -1,14 +1,6 @@
 [
       [
             {
-                  "goal": 0.75,
-                  "total": 0.77337,
-                  "contributors": 4,
-                  "address": "85ppFzKD9e6JngBSNCvhmP9Z5WChnR7MWLvhanAYX7bFa3isgRifsPTCVMbzdKbuFCUnaEJeAWjgE2UaSNstRAvXEM8gvtk",
-                  "desc": "Riding a sinking ship to dock <a href='sinkingship.png'>(Example)</a>",
-                  "percent": 100
-            },
-            {
                   "goal": 0.5,
                   "total": 0.15200000000000002,
                   "contributors": 3,
@@ -63,11 +55,19 @@
                   "address": "877X7ankRF7FRWFUfSQz8egxudPDMN3QgK6RpPZF3ZMURWdDJ3uYb6GJZ47agpsnct3sT9piv1RVfbn6wWsj46YNT4yw5kp",
                   "desc": "Shredding an electric guitar",
                   "percent": 0
+            },
+            {
+                  "goal": 0.75,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
+                  "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
+                  "percent": 0
             }
       ],
       {
             "total": 2.405546578377,
             "contributors": 61,
-            "modified": "2022-02-25 15:08:54.823433"
+            "modified": "2022-02-25 15:08:54.823434"
       }
 ]
