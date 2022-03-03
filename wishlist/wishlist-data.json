@@ -49,14 +49,6 @@
                   "percent": 1
             },
             {
-                  "goal": 0.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "877X7ankRF7FRWFUfSQz8egxudPDMN3QgK6RpPZF3ZMURWdDJ3uYb6GJZ47agpsnct3sT9piv1RVfbn6wWsj46YNT4yw5kp",
-                  "desc": "Shredding an electric guitar",
-                  "percent": 0
-            },
-            {
                   "goal": 0.75,
                   "total": 0,
                   "contributors": 0,
@@ -68,6 +60,6 @@
       {
             "total": 2.440386154444,
             "contributors": 62,
-            "modified": "2022-03-02 01:25:03.796665"
+            "modified": "2022-03-02 01:25:03.796666"
       }
 ]
