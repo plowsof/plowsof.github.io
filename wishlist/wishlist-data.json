@@ -2,11 +2,11 @@
       [
             {
                   "goal": 0.5,
-                  "total": 0.35699000000000003,
-                  "contributors": 5,
+                  "total": 0.49699000000000004,
+                  "contributors": 6,
                   "address": "86VtCGsvxdSBfstD4c24kVJDkE9kfJVeiUWpBH2Hmj4NJ4JFBwAJgzbFNBsQZWYsmtiovCNhdfC32Ca8d9ez3LEn2RkHp2Y",
                   "desc": "Sexy nurse",
-                  "percent": 71.39800000000001
+                  "percent": 99.39800000000001
             },
             {
                   "goal": 2,
@@ -60,6 +60,6 @@
       {
             "total": 2.640386154444,
             "contributors": 63,
-            "modified": "2022-03-12 16:47:24.853124"
+            "modified": "2022-03-12 21:09:22.891393"
       }
 ]
