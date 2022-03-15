@@ -47,11 +47,27 @@
                   "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
                   "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
                   "percent": 0
+            },
+            {
+                  "goal": 1.5,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "82YGRTHeqSp4VZmEvquVrqWtY92fA9VdSLxbKRxEtf2jX15bWs3uTt6cvREUF4Zgt99d2hiEwtFgMionoyAq6TUiFYw9vYs",
+                  "desc": "GTA II Cover Art</a>",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0,
+                  "contributors": 0,
+                  "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
+                  "desc": "Doing laundry</a>",
+                  "percent": 0
             }
       ],
       {
             "total": 2.640386154444,
             "contributors": 63,
-            "modified": "2022-03-12 21:09:22.891394"
+            "modified": "2022-03-12 21:09:22.891395"
       }
 ]
