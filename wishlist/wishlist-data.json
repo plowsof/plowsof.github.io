@@ -1,20 +1,20 @@
 [
       [
             {
+                  "goal": 1,
+                  "total": 0.99587,
+                  "contributors": 4,
+                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
+                  "desc": "School swimsuit",
+                  "percent": 99.587
+            },
+            {
                   "goal": 2,
                   "total": 0.7633369999999999,
                   "contributors": 5,
                   "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
                   "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
                   "percent": 38.16685
-            },
-            {
-                  "goal": 1,
-                  "total": 0.21587,
-                  "contributors": 3,
-                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
-                  "desc": "School swimsuit",
-                  "percent": 20.0
             },
             {
                   "goal": 0.5,
@@ -68,6 +68,6 @@
       {
             "total": 2.640386154444,
             "contributors": 63,
-            "modified": "2022-03-12 21:09:22.891395"
+            "modified": "2022-03-16 19:52:08.089258"
       }
 ]
