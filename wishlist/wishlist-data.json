@@ -1,14 +1,6 @@
 [
       [
             {
-                  "goal": 1,
-                  "total": 0.99587,
-                  "contributors": 4,
-                  "address": "8C2anamJryxf8SWKWSk1GbJ3Ri1NtWewpbVfN38cMtZnNQEfHYsp4x731E9Q2qjecu8yuj3KivKAaTwJBTuvXtMs9JMU2MF",
-                  "desc": "School swimsuit",
-                  "percent": 99.587
-            },
-            {
                   "goal": 2,
                   "total": 1.003337,
                   "contributors": 6,
@@ -68,6 +60,6 @@
       {
             "total": 2.700377324444,
             "contributors": 64,
-            "modified": "2022-03-17 00:00:32.016676"
+            "modified": "2022-03-17 00:00:32.016677"
       }
 ]
