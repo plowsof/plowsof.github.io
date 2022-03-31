@@ -17,6 +17,14 @@
                   "percent": 20.0
             },
             {
+                  "goal": 0.75,
+                  "total": 0.04,
+                  "contributors": 1,
+                  "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
+                  "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
+                  "percent": 5.333333333333334
+            },
+            {
                   "goal": 3.5,
                   "total": 0.120160099401,
                   "contributors": 3,
@@ -31,14 +39,6 @@
                   "address": "87M7jiHiYBzSa9jbkG76Jh9S6NYampzm5AE63PpbpGg3AGtzgkrLZTwKa4DYpHQ5tmaioZdEAUKCQLix498GvWUkS4d3tkL",
                   "desc": "As a rising phoenix girl",
                   "percent": 1
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
-                  "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
-                  "percent": 0
             },
             {
                   "goal": 1.5,
@@ -76,6 +76,6 @@
       {
             "total": 2.840363984444,
             "contributors": 65,
-            "modified": "2022-03-28 11:47:34.288749"
+            "modified": "2022-03-31 01:32:53.532722"
       }
 ]
