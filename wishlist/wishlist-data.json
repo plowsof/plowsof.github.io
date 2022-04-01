@@ -10,11 +10,11 @@
             },
             {
                   "goal": 0.75,
-                  "total": 0.20900000000000002,
-                  "contributors": 3,
+                  "total": 0.30900000000000005,
+                  "contributors": 4,
                   "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
                   "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
-                  "percent": 27.866666666666667
+                  "percent": 41.20000000000001
             },
             {
                   "goal": 0.5,
@@ -76,6 +76,6 @@
       {
             "total": 2.900363984444,
             "contributors": 66,
-            "modified": "2022-04-01 04:03:54.853734"
+            "modified": "2022-04-01 07:32:37.697174"
       }
 ]
