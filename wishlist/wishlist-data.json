@@ -1,14 +1,6 @@
 [
       [
             {
-                  "goal": 2,
-                  "total": 2.0013370000000004,
-                  "contributors": 11,
-                  "address": "87TVbUPgHoiVBmaUxvdzZgaUNMpQvrSGa1uaDssNxyb6M3K84bhTxCiZXaALsLpL87YAphsteieYYTrXGhJ9qbDYLxtGTYT",
-                  "desc": "As a knight facing off against an enourmous foe (fantasy art style) <a href='moneroknight.jpg'>(Example)</a>",
-                  "percent": 100
-            },
-            {
                   "goal": 0.75,
                   "total": 0.30900000000000005,
                   "contributors": 4,
@@ -76,6 +68,6 @@
       {
             "total": 2.900363984444,
             "contributors": 66,
-            "modified": "2022-04-01 07:32:37.697174"
+            "modified": "2022-04-01 07:32:37.697175"
       }
 ]
