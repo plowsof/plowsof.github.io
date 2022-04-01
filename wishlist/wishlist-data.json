@@ -9,20 +9,20 @@
                   "percent": 100
             },
             {
+                  "goal": 0.75,
+                  "total": 0.20900000000000002,
+                  "contributors": 3,
+                  "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
+                  "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
+                  "percent": 27.866666666666667
+            },
+            {
                   "goal": 0.5,
                   "total": 0.1,
                   "contributors": 1,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
                   "desc": "In a hula outfit hitting a big drum (POOMPA)",
                   "percent": 20.0
-            },
-            {
-                  "goal": 0.75,
-                  "total": 0.10900000000000001,
-                  "contributors": 2,
-                  "address": "87oLLsojRm5ZS6ZUNrmQDZPtVgsAdvzSSYnvttiXPhHFLeGZ8t4m2WQ4G7KDXSoWDY9sfHzUep12fUPqvFWgiTaT7s6iZNb",
-                  "desc": "Lotus position riding a giant crab <a href='zen_crabnerochan.jpg'>(Example)</a>",
-                  "percent": 14.533333333333335
             },
             {
                   "goal": 3.5,
@@ -76,6 +76,6 @@
       {
             "total": 2.840363984444,
             "contributors": 65,
-            "modified": "2022-03-31 01:55:27.201936"
+            "modified": "2022-04-01 02:17:52.760000"
       }
 ]
