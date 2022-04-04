@@ -10,11 +10,11 @@
             },
             {
                   "goal": 0.5,
-                  "total": 0.31,
-                  "contributors": 3,
+                  "total": 0.5,
+                  "contributors": 4,
                   "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
                   "desc": "In a hula outfit hitting a big drum (POOMPA)",
-                  "percent": 62.0
+                  "percent": 100
             },
             {
                   "goal": 0.75,
@@ -68,6 +68,6 @@
       {
             "total": 2.900363984444,
             "contributors": 66,
-            "modified": "2022-04-04 02:54:02.483557"
+            "modified": "2022-04-04 14:47:04.988403"
       }
 ]
