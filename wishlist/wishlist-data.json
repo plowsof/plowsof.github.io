@@ -42,18 +42,18 @@
             },
             {
                   "goal": 1,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
-                  "desc": "Doing laundry",
-                  "percent": 0
+                  "total": 0.01,
+                  "contributors": 1,
+                  "address": "82fz5ncbDY8FbKVA1ALguA1q4mzduhPBL9wfw8DXadsD3T2DwVa81jPEt2Y9f5yqriFMcGPHvZo8QZ7FWpkKqLq3RCtZ3Rn",
+                  "desc": "Shopping confidently <a href='shopping.jpg'>(Example)</a>",
+                  "percent": 1.0
             },
             {
                   "goal": 1,
                   "total": 0,
                   "contributors": 0,
-                  "address": "82fz5ncbDY8FbKVA1ALguA1q4mzduhPBL9wfw8DXadsD3T2DwVa81jPEt2Y9f5yqriFMcGPHvZo8QZ7FWpkKqLq3RCtZ3Rn",
-                  "desc": "Shopping confidently <a href='shopping.jpg'>(Example)</a>",
+                  "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
+                  "desc": "Doing laundry",
                   "percent": 0
             },
             {
@@ -68,6 +68,6 @@
       {
             "total": 2.900363984444,
             "contributors": 66,
-            "modified": "2022-04-03 16:09:40.869142"
+            "modified": "2022-04-04 02:54:02.483557"
       }
 ]
