@@ -1,22 +1,6 @@
 [
       [
             {
-                  "goal": 1.5,
-                  "total": 1.5,
-                  "contributors": 1,
-                  "address": "82YGRTHeqSp4VZmEvquVrqWtY92fA9VdSLxbKRxEtf2jX15bWs3uTt6cvREUF4Zgt99d2hiEwtFgMionoyAq6TUiFYw9vYs",
-                  "desc": "GTA II Cover Art",
-                  "percent": 100
-            },
-            {
-                  "goal": 0.5,
-                  "total": 0.5,
-                  "contributors": 4,
-                  "address": "8BdHb1bU8DVA6NDuXrVbdNS6erjAeWx1sM15wBawWSniVrjQzMkPT2NiAZd1Ku8h3uMi7URiETeAwQXyaSdTKSNoVbgQSUc",
-                  "desc": "In a hula outfit hitting a big drum (POOMPA)",
-                  "percent": 100
-            },
-            {
                   "goal": 0.75,
                   "total": 0.30900000000000005,
                   "contributors": 4,
@@ -55,19 +39,11 @@
                   "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
                   "desc": "Doing laundry",
                   "percent": 0
-            },
-            {
-                  "goal": 1.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8AekHsXWiE5Hc8Uk7YcwZe6jS4gQRbQ55YJzMSb9U7ADdN6NovfibALXQghNKntiot6ZQYziyoNn3RLA3TdYJB81G2LKPB5",
-                  "desc": "Granting knighthood to an Anon <a href='knighthood.jpg'>(Example)</a>",
-                  "percent": 0
             }
       ],
       {
             "total": 3.000363984444,
             "contributors": 67,
-            "modified": "2022-04-05 07:55:42.381723"
+            "modified": "2022-04-05 07:55:42.381725"
       }
 ]
