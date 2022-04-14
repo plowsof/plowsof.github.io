@@ -18,11 +18,11 @@
             },
             {
                   "goal": 3.5,
-                  "total": 1.620160099,
-                  "contributors": 3,
+                  "total": 1.620160099001,
+                  "contributors": 4,
                   "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
                   "desc": "Cosplay Photoshoot",
-                  "percent": 46.3
+                  "percent": 46.29028854288572
             },
             {
                   "goal": 1,
@@ -44,6 +44,6 @@
       {
             "total": 3.378346904444,
             "contributors": 69,
-            "modified": "2022-04-14 01:22:43.864328"
+            "modified": "2022-04-14 01:45:08.921000"
       }
 ]
