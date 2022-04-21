@@ -37,7 +37,7 @@
                   "total": 0,
                   "contributors": 0,
                   "address": "8AkzftozpK9JXCJE9h9noG3aBvRuqLqS3fxEqjTQSKh8DH6a6JBiRAwWL7KeTt7q3MVjEtc2Q6s7AZ9pCm1kdup1HBJ2yee",
-                  "desc": "As 007 <a href='007.png'>(Example)</a>",
+                  "desc": "As 007 <a href='007.jpg'>(Example)</a>",
                   "percent": 0
             },
             {
@@ -69,6 +69,6 @@
       {
             "total": 1.437338414444,
             "contributors": 70,
-            "modified": "2022-04-21 01:20:51.135880"
+            "modified": "2022-04-21 01:20:51.135881"
       }
 ]
