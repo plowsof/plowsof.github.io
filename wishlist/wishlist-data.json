@@ -25,6 +25,14 @@
                   "percent": 23.333333333333332
             },
             {
+                  "goal": 1.5,
+                  "total": 0.35,
+                  "contributors": 1,
+                  "address": "8AMCtJTDNF1PeAWbq4kapM873MT3791R1MgHMCdVU2EHNCFc6mCCxdLE82eZr9QdbaQjnhoiAjfsgcWLLxNYZ968EwfiXXR",
+                  "desc": "As Daisy Duke w/ '69 Holden Monaro GTS",
+                  "percent": 23.333333333333332
+            },
+            {
                   "goal": 1,
                   "total": 0.21,
                   "contributors": 2,
@@ -55,19 +63,11 @@
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
                   "percent": 0
-            },
-            {
-                  "goal": 1.5,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8AMCtJTDNF1PeAWbq4kapM873MT3791R1MgHMCdVU2EHNCFc6mCCxdLE82eZr9QdbaQjnhoiAjfsgcWLLxNYZ968EwfiXXR",
-                  "desc": "As Daisy Duke w/ '69 Holden Monaro GTS",
-                  "percent": 0
             }
       ],
       {
             "total": 1.437338414444,
             "contributors": 70,
-            "modified": "2022-04-22 03:09:43.419246"
+            "modified": "2022-04-22 03:15:55.897909"
       }
 ]
