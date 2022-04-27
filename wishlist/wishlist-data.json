@@ -1,6 +1,14 @@
 [
       [
             {
+                  "goal": 1.5,
+                  "total": 1.5499999999999998,
+                  "contributors": 2,
+                  "address": "843LSEpyv7f7MbnFZ9Gbqv9g3UGwQHt7TG7UHC8jKtXY5xwyMJ1wRpQhit3eoWWc3eAMWxBmRbrUJix5bLfvZvV55apDdtN",
+                  "desc": "As a Witcher hunting possessed IRS-chan",
+                  "percent": 100
+            },
+            {
                   "goal": 1.2,
                   "total": 0.763416283769,
                   "contributors": 7,
@@ -15,14 +23,6 @@
                   "address": "884zs3EU81ceNfTDdNAZSz2YV5W7my8tuiFUjkYDNy4xJ4kYLfZtnKzGavCJdwPjEa4xJ8NS6vcNZEs7NwqWoerU9kFePYf",
                   "desc": "Cosplay Photoshoot",
                   "percent": 47.71885997145714
-            },
-            {
-                  "goal": 1.5,
-                  "total": 0.35,
-                  "contributors": 1,
-                  "address": "843LSEpyv7f7MbnFZ9Gbqv9g3UGwQHt7TG7UHC8jKtXY5xwyMJ1wRpQhit3eoWWc3eAMWxBmRbrUJix5bLfvZvV55apDdtN",
-                  "desc": "As a Witcher hunting possessed IRS-chan",
-                  "percent": 23.333333333333332
             },
             {
                   "goal": 1.5,
@@ -68,6 +68,6 @@
       {
             "total": 1.437338414444,
             "contributors": 70,
-            "modified": "2022-04-22 09:07:24.747195"
+            "modified": "2022-04-27 15:54:46.116477"
       }
 ]
