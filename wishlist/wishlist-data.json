@@ -1,14 +1,6 @@
 [
       [
             {
-                  "goal": 1.5,
-                  "total": 1.5499999999999998,
-                  "contributors": 2,
-                  "address": "843LSEpyv7f7MbnFZ9Gbqv9g3UGwQHt7TG7UHC8jKtXY5xwyMJ1wRpQhit3eoWWc3eAMWxBmRbrUJix5bLfvZvV55apDdtN",
-                  "desc": "As a Witcher hunting possessed IRS-chan",
-                  "percent": 100
-            },
-            {
                   "goal": 1.2,
                   "total": 0.763416283769,
                   "contributors": 7,
@@ -68,6 +60,6 @@
       {
             "total": 1.437338414444,
             "contributors": 70,
-            "modified": "2022-04-27 16:14:20.552762"
+            "modified": "2022-04-27 16:14:20.552763"
       }
 ]
