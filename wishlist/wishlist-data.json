@@ -2,11 +2,11 @@
       [
             {
                   "goal": 1.2,
-                  "total": 0.803416283769,
-                  "contributors": 8,
+                  "total": 1.2034162837690001,
+                  "contributors": 9,
                   "address": "87M7jiHiYBzSa9jbkG76Jh9S6NYampzm5AE63PpbpGg3AGtzgkrLZTwKa4DYpHQ5tmaioZdEAUKCQLix498GvWUkS4d3tkL",
                   "desc": "As a rising phoenix girl",
-                  "percent": 66.95135698074999
+                  "percent": 100
             },
             {
                   "goal": 3.5,
@@ -60,6 +60,6 @@
       {
             "total": 1.437338414444,
             "contributors": 70,
-            "modified": "2022-05-23 04:52:20.864524"
+            "modified": "2022-05-23 18:30:52.257282"
       }
 ]
