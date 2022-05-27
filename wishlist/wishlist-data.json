@@ -26,11 +26,11 @@
             },
             {
                   "goal": 1.5,
-                  "total": 0.35,
-                  "contributors": 1,
+                  "total": 0.36,
+                  "contributors": 2,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
-                  "percent": 23.333333333333332
+                  "percent": 24.0
             },
             {
                   "goal": 1,
@@ -52,6 +52,6 @@
       {
             "total": 2.079111873081,
             "contributors": 73,
-            "modified": "2022-05-27 02:29:24.764980"
+            "modified": "2022-05-27 07:29:38.128985"
       }
 ]
