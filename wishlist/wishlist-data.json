@@ -32,18 +32,10 @@
                   "desc": "Doing laundry",
                   "percent": 20.0
             },
-            {
-                  "goal": 0.75,
-                  "total": 0,
-                  "contributors": 0,
-                  "address": "8AkzftozpK9JXCJE9h9noG3aBvRuqLqS3fxEqjTQSKh8DH6a6JBiRAwWL7KeTt7q3MVjEtc2Q6s7AZ9pCm1kdup1HBJ2yee",
-                  "desc": "As 007 <a href='007.jpg'>(Example)</a>",
-                  "percent": 0
-            }
       ],
       {
             "total": 0.079111873081,
             "contributors": 73,
-            "modified": "2022-06-05 02:56:39.200315"
+            "modified": "2022-06-05 02:56:39.200316"
       }
 ]
