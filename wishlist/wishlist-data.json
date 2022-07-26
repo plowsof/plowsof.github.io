@@ -2,11 +2,11 @@
       [
             {
                   "goal": 3,
-                  "total": 2.5629999999999997,
-                  "contributors": 5,
+                  "total": 5.063,
+                  "contributors": 6,
                   "address": "8AMCtJTDNF1PeAWbq4kapM873MT3791R1MgHMCdVU2EHNCFc6mCCxdLE82eZr9QdbaQjnhoiAjfsgcWLLxNYZ968EwfiXXR",
                   "desc": "As Daisy Duke w/ '69 Holden Monaro GTS",
-                  "percent": 85.43333333333332
+                  "percent": 100
             },
             {
                   "goal": 2,
@@ -44,6 +44,6 @@
       {
             "total": 0.24910059260099998,
             "contributors": 75,
-            "modified": "2022-07-13 20:46:05.548089"
+            "modified": "2022-07-26 18:10:26.067980"
       }
 ]
