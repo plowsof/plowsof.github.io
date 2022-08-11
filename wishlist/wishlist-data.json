@@ -2,6 +2,14 @@
       [
             {
                   "goal": 2,
+                  "total": 3.0,
+                  "contributors": 1,
+                  "address": "86dqUoBox7WhYGmA9VZMrWbtk3SgcrUeJ9GubhmFvLFKX72GpPZF4pxW7NwNGF938nHzECu2N76ThDWUQQjiPGGWDUFhnvL",
+                  "desc": "Hooters style waitress",
+                  "percent": 100
+            },
+            {
+                  "goal": 2,
                   "total": 0.9200151395199999,
                   "contributors": 7,
                   "address": "82fz5ncbDY8FbKVA1ALguA1q4mzduhPBL9wfw8DXadsD3T2DwVa81jPEt2Y9f5yqriFMcGPHvZo8QZ7FWpkKqLq3RCtZ3Rn",
@@ -31,19 +39,11 @@
                   "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
                   "desc": "Mining animation (pixel art)",
                   "percent": 5.333333333333334
-            },
-            {
-                  "goal": 2,
-                  "total": 0.00,
-                  "contributors": 0,
-                  "address": "86dqUoBox7WhYGmA9VZMrWbtk3SgcrUeJ9GubhmFvLFKX72GpPZF4pxW7NwNGF938nHzECu2N76ThDWUQQjiPGGWDUFhnvL",
-                  "desc": "Hooters style waitress",
-                  "percent": 0
             }
       ],
       {
             "total": 0.24910059260099998,
             "contributors": 75,
-            "modified": "2022-07-26 18:10:26.067982"
+            "modified": "2022-08-11 02:49:57.979449"
       }
 ]
