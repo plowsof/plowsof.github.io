@@ -31,11 +31,19 @@
                   "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
                   "desc": "Mining animation (pixel art)",
                   "percent": 5.333333333333334
+            },
+            {
+                  "goal": 2,
+                  "total": 0.00,
+                  "contributors": 0,
+                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
+                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
+                  "percent": 0.0
             }
       ],
       {
             "total": 0.24910059260099998,
             "contributors": 75,
-            "modified": "2022-08-11 02:49:57.979450"
+            "modified": "2022-08-11 02:49:57.979451"
       }
 ]
