@@ -10,11 +10,11 @@
             },
             {
                   "goal": 2,
-                  "total": 0.5,
-                  "contributors": 4,
+                  "total": 0.75,
+                  "contributors": 5,
                   "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
                   "desc": "Doing laundry",
-                  "percent": 25.0
+                  "percent": 37.5
             },
             {
                   "goal": 3,
@@ -34,7 +34,7 @@
             },
             {
                   "goal": 2,
-                  "total": 0.00,
+                  "total": 0.0,
                   "contributors": 0,
                   "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
                   "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
@@ -44,6 +44,6 @@
       {
             "total": 0.24910059260099998,
             "contributors": 75,
-            "modified": "2022-08-11 02:49:57.979451"
+            "modified": "2022-09-04 01:51:31.063767"
       }
 ]
