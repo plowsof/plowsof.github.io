@@ -18,11 +18,11 @@
             },
             {
                   "goal": 3,
-                  "total": 0.3975,
-                  "contributors": 4,
+                  "total": 0.49750000000000005,
+                  "contributors": 5,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
-                  "percent": 13.25
+                  "percent": 16.583333333333336
             },
             {
                   "goal": 3,
@@ -47,11 +47,11 @@
                   "address": "8938vfszM1YfUaWAtU4j6qWfPwWPf1zWbBBgkELCFrSCTGa2ANLsWLw8krxBdTAdRLMTw6KsiS4PP2v1FNmyuHoEAPS6Fnu",
                   "desc": "As a Saint in Orthodox Christian artstyle",
                   "percent": 0.0
-            }            
+            }
       ],
       {
             "total": 1.249744432601,
             "contributors": 78,
-            "modified": "2022-12-03 07:40:20.270262"
+            "modified": "2022-12-19 22:59:01.810517"
       }
 ]
