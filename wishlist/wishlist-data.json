@@ -2,14 +2,6 @@
       [
             {
                   "goal": 2,
-                  "total": 2.00001513952,
-                  "contributors": 10,
-                  "address": "82fz5ncbDY8FbKVA1ALguA1q4mzduhPBL9wfw8DXadsD3T2DwVa81jPEt2Y9f5yqriFMcGPHvZo8QZ7FWpkKqLq3RCtZ3Rn",
-                  "desc": "Shopping confidently <a href='shopping.jpg'>(Example)</a>",
-                  "percent": 100
-            },
-            {
-                  "goal": 2,
                   "total": 0.8,
                   "contributors": 7,
                   "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
@@ -50,7 +42,7 @@
             }
       ],
       {
-            "total": 1.38557936195,
+            "total": 0.0,
             "contributors": 83,
             "modified": "2023-01-29 03:56:22.746730"
       }
