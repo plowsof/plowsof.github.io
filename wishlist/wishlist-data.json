@@ -39,19 +39,11 @@
                   "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
                   "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
                   "percent": 1.9905385000000002
-            },
-            {
-                  "goal": 2,
-                  "total": 0.0,
-                  "contributors": 0,
-                  "address": "83eKeaPkaJUcASXfMniGMu4aozN1xEvHGBDfmvpVU4t1MyffmgHyKHs19Rk3hiTQ6eWEpk2mnkFvgJ9T6cgQyJJnCw21wBs",
-                  "desc": "Inscribe 10 Monerochan pictures on the BTC blockchain",
-                  "percent": 0
             }
       ],
       {
             "total": 0.0,
             "contributors": 83,
-            "modified": "2023-01-29 03:56:22.746733"
+            "modified": "2023-01-29 03:56:22.746734"
       }
 ]
