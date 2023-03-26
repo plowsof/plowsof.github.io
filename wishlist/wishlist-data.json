@@ -2,11 +2,11 @@
       [
             {
                   "goal": 2,
-                  "total": 0.8,
-                  "contributors": 7,
+                  "total": 1.0,
+                  "contributors": 8,
                   "address": "86GC5LQDvCxSEXgYVFZTykgKqdLUnjeJnh8VrU1sLr1yiQeY6Nf3jq8VbhCLCGFpubWYF6tfvTeCmLcrEkbdWhT44dbdt8m",
                   "desc": "Doing laundry",
-                  "percent": 40.0
+                  "percent": 50.0
             },
             {
                   "goal": 3,
@@ -44,6 +44,6 @@
       {
             "total": 0.015708329349,
             "contributors": 85,
-            "modified": "2023-03-12 12:20:31.923925"
+            "modified": "2023-03-26 02:40:20.236649"
       }
 ]
