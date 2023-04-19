@@ -17,6 +17,14 @@
                   "percent": 33.7793089783
             },
             {
+                  "goal": 2,
+                  "total": 0.23981077,
+                  "contributors": 2,
+                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
+                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
+                  "percent": 11.9905385
+            },
+            {
                   "goal": 3,
                   "total": 0.28,
                   "contributors": 5,
@@ -31,19 +39,11 @@
                   "address": "8938vfszM1YfUaWAtU4j6qWfPwWPf1zWbBBgkELCFrSCTGa2ANLsWLw8krxBdTAdRLMTw6KsiS4PP2v1FNmyuHoEAPS6Fnu",
                   "desc": "As a Saint in Orthodox Christian artstyle",
                   "percent": 6.000000000000001
-            },
-            {
-                  "goal": 2,
-                  "total": 0.03981077,
-                  "contributors": 1,
-                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
-                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
-                  "percent": 1.9905385000000002
             }
       ],
       {
             "total": 0.015708329349,
             "contributors": 85,
-            "modified": "2023-04-13 07:39:02.729116"
+            "modified": "2023-04-19 00:46:05.564629"
       }
 ]
