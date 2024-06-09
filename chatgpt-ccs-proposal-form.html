@@ -33,11 +33,17 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+        .milestone, .additional-fields {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
         .button {
             display: flex;
             justify-content: space-between;
         }
-        button {
+        .button button {
             padding: 10px 15px;
             background-color: #5cb85c;
             color: white;
@@ -45,42 +51,19 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        button:disabled {
+        .button button:disabled {
             background-color: #d3d3d3;
             cursor: not-allowed;
         }
-        .preview {
-            margin-top: 20px;
-            padding: 10px;
-            background: #e9ecef;
-            border-radius: 4px;
-        }
-        .milestone {
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 10px;
-            margin-bottom: 10px;
-        }
-        .milestone .button {
-            display: flex;
-            justify-content: space-between;
-        }
-        .milestone .button button {
-            background-color: #d9534f;
-        }
-        #markdownPreview {
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 10px;
-            margin-top: 10px;
-            background: #fff;
+        .hidden {
+            display: none;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Proposal Form</h1>
-        <form id="proposalForm">
+        <form id="proposalForm" onsubmit="generateYaml(event)">
             <label for="author">Author</label>
             <input type="text" id="author" name="author" required>
             
@@ -93,136 +76,164 @@
                 <option value="wip">WORK-IN-PROGRESS</option>
                 <option value="cp">COMPLETED</option>
             </select>
+
+            <label for="proposalType">Proposal Type</label>
+            <select id="proposalType" name="proposalType" onchange="toggleDevProposal()" required>
+                <option value="standard">Standard Proposal</option>
+                <option value="dev">3-Month Standard Dev Proposal</option>
+            </select>
+
+            <div id="devProposalFields" class="additional-fields hidden">
+                <label for="hourlyRate">Hourly Rate (USD)</label>
+                <input type="number" id="hourlyRate" name="hourlyRate" step="0.01" oninput="updateMilestones()">
+
+                <label for="hoursPerWeek">Hours per Week</label>
+                <input type="number" id="hoursPerWeek" name="hoursPerWeek" oninput="updateMilestones()">
+
+                <label for="usdPerXmr">Chosen USD Price of Monero (XMR)</label>
+                <input type="number" id="usdPerXmr" name="usdPerXmr" step="0.01" oninput="updateMilestones()">
+
+                <label for="additionalXmrPerHour">Additional XMR per Hour (Optional)</label>
+                <input type="number" id="additionalXmrPerHour" name="additionalXmrPerHour" step="0.01" oninput="updateMilestones()">
+            </div>
             
             <label for="title">Title</label>
             <input type="text" id="title" name="title" required>
             
-            <label for="milestones">Milestones</label>
-            <div id="milestones"></div>
+            <div id="milestones">
+                <label for="milestones">Milestones</label>
+            </div>
             <button type="button" onclick="addMilestone()">Add Milestone</button>
             
             <label for="description">Description (Markdown)</label>
-            <textarea id="description" name="description" rows="6" required oninput="updateMarkdownPreview()"></textarea>
+            <textarea id="description" name="description" rows="6" required></textarea>
             
             <div class="button">
-                <button type="button" onclick="generateYAML()">Generate YAML</button>
-                <button type="reset" onclick="resetForm()">Reset</button>
+                <button type="submit">Submit</button>
+                <button type="reset" onclick="clearYaml()">Reset</button>
             </div>
         </form>
-        
-        <div class="preview" id="yamlPreview">
-            <h2>YAML + Markdown Output</h2>
-            <pre id="yamlOutput"></pre>
+        <div id="yamlOutput" class="hidden">
+            <h2>Generated YAML</h2>
+            <pre id="yaml"></pre>
         </div>
-        
-        <div id="markdownPreview">
-            <h2>Markdown Preview</h2>
-            <div id="formattedMarkdown"></div>
-        </div>
-        
-        <button onclick="copyToClipboard()">Copy to Clipboard</button>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
         let milestoneCount = 0;
+
+        function toggleDevProposal() {
+            const devProposalFields = document.getElementById('devProposalFields');
+            if (document.getElementById('proposalType').value === 'dev') {
+                devProposalFields.classList.remove('hidden');
+                populateDevMilestones();
+            } else {
+                devProposalFields.classList.add('hidden');
+                clearMilestones();
+            }
+        }
 
         function addMilestone() {
             milestoneCount++;
             const milestonesDiv = document.getElementById('milestones');
             const milestoneDiv = document.createElement('div');
             milestoneDiv.className = 'milestone';
-            milestoneDiv.id = 'milestone-' + milestoneCount;
-
+            milestoneDiv.id = `milestone-${milestoneCount}`;
             milestoneDiv.innerHTML = `
                 <label for="milestone-name-${milestoneCount}">Name</label>
                 <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" required>
-                
                 <label for="milestone-funds-${milestoneCount}">Funds</label>
                 <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" required>
-                
-                <div class="button">
-                    <button type="button" onclick="removeMilestone(${milestoneCount})">Remove Milestone</button>
-                </div>
+                <input type="hidden" id="milestone-status-${milestoneCount}" name="milestone-status-${milestoneCount}" value="unfinished">
+                <input type="hidden" id="milestone-done-${milestoneCount}" name="milestone-done-${milestoneCount}" value="">
             `;
             milestonesDiv.appendChild(milestoneDiv);
         }
 
-        function removeMilestone(id) {
-            const milestoneDiv = document.getElementById('milestone-' + id);
-            milestoneDiv.remove();
+        function populateDevMilestones() {
+            clearMilestones();
+            const milestonesDiv = document.getElementById('milestones');
+            for (let i = 1; i <= 3; i++) {
+                milestoneCount++;
+                const milestoneDiv = document.createElement('div');
+                milestoneDiv.className = 'milestone';
+                milestoneDiv.id = `milestone-${milestoneCount}`;
+                milestoneDiv.innerHTML = `
+                    <label for="milestone-name-${milestoneCount}">Name</label>
+                    <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" value="Month ${i}" readonly>
+                    <label for="milestone-funds-${milestoneCount}">Funds</label>
+                    <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" readonly>
+                    <input type="hidden" id="milestone-status-${milestoneCount}" name="milestone-status-${milestoneCount}" value="unfinished">
+                    <input type="hidden" id="milestone-done-${milestoneCount}" name="milestone-done-${milestoneCount}" value="">
+                `;
+                milestonesDiv.appendChild(milestoneDiv);
+            }
+            updateMilestones();
         }
 
-        function resetForm() {
-            document.getElementById('milestones').innerHTML = '';
+        function clearMilestones() {
+            const milestonesDiv = document.getElementById('milestones');
+            milestonesDiv.innerHTML = '<label for="milestones">Milestones</label>';
             milestoneCount = 0;
-            document.getElementById('yamlOutput').textContent = '';
-            document.getElementById('formattedMarkdown').innerHTML = '';
         }
 
-        function generateYAML() {
-            const author = document.getElementById('author').value;
-            const date = document.getElementById('date').value;
-            const layout = document.getElementById('layout').value;
-            const title = document.getElementById('title').value;
-            const description = document.getElementById('description').value;
+        function updateMilestones() {
+            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
+            const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
+            const usdPerXmr = parseFloat(document.getElementById('usdPerXmr').value);
+            const additionalXmrPerHour = parseFloat(document.getElementById('additionalXmrPerHour').value || 0);
+            
+            if (isNaN(hourlyRate) || isNaN(hoursPerWeek) || isNaN(usdPerXmr)) {
+                return;
+            }
 
-            const milestones = [];
+            const usdPerMonth = hourlyRate * hoursPerWeek * 4;
+            const xmrPerMonth = (usdPerMonth / usdPerXmr) + (additionalXmrPerHour * hoursPerWeek * 4);
+            
+            for (let i = 1; i <= milestoneCount; i++) {
+                document.getElementById(`milestone-funds-${i}`).value = xmrPerMonth.toFixed(1);
+            }
+        }
+
+        function generateYaml(event) {
+            event.preventDefault();
+            const form = document.getElementById('proposalForm');
+            const formData = new FormData(form);
+            let yaml = "---\n";
             let totalFunds = 0;
 
             for (let i = 1; i <= milestoneCount; i++) {
-                const name = document.getElementById(`milestone-name-${i}`);
-                const funds = document.getElementById(`milestone-funds-${i}`);
-
-                if (name && funds) {
-                    const fundValue = parseFloat(funds.value);
-                    totalFunds += fundValue;
-
-                    milestones.push({
-                        name: name.value,
-                        funds: fundValue,
-                        status: 'unfinished',
-                        done: ''  // Automatically adding a blank 'done' field
-                    });
-                }
+                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                totalFunds += funds;
             }
 
-            const yamlData = {
-                amount: totalFunds.toFixed(2),
-                author: author,
-                date: date,
-                layout: layout,
-                milestones: milestones,
-                title: title
-            };
+            yaml += `amount: ${totalFunds.toFixed(1)}\n`;
+            yaml += `author: ${formData.get('author')}\n`;
+            yaml += `date: ${formData.get('date')}\n`;
+            yaml += `layout: ${formData.get('layout')}\n`;
+            yaml += `title: ${formData.get('title')}\n`;
+            yaml += `milestones:\n`;
 
-            const yamlText = `---
-amount: ${yamlData.amount}
-author: ${yamlData.author}
-date: ${yamlData.date}
-layout: ${yamlData.layout}
-milestones:
-${yamlData.milestones.map(m => `  - name: ${m.name}\n    funds: ${m.funds}\n    status: ${m.status}\n    done: ${m.done}`).join('\n')}
-title: ${yamlData.title}
----
-${description}`;
+            for (let i = 1; i <= milestoneCount; i++) {
+                const name = formData.get(`milestone-name-${i}`);
+                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                yaml += `  - name: ${name}\n`;
+                yaml += `    funds: ${funds.toFixed(1)}\n`;
+                yaml += `    status: unfinished\n`;
+                yaml += `    done: \n`;
+            }
 
-            document.getElementById('yamlOutput').textContent = yamlText;
-            updateMarkdownPreview();
+            yaml += "---\n";
+            const description = formData.get('description');
+            yaml += description;
+
+            document.getElementById('yaml').textContent = yaml;
+            document.getElementById('yamlOutput').classList.remove('hidden');
         }
 
-        function updateMarkdownPreview() {
-            const description = document.getElementById('description').value;
-            document.getElementById('formattedMarkdown').innerHTML = marked.parse(description);
-        }
-
-        function copyToClipboard() {
-            const yamlOutput = document.getElementById('yamlOutput').textContent;
-            navigator.clipboard.writeText(yamlOutput).then(() => {
-                alert('YAML + Markdown copied to clipboard');
-            }).catch(err => {
-                console.error('Could not copy text: ', err);
-            });
+        function clearYaml() {
+            document.getElementById('yamlOutput').classList.add('hidden');
+            document.getElementById('yaml').textContent = '';
         }
     </script>
 </body>
