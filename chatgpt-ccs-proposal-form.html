@@ -81,6 +81,7 @@
             <select id="proposalType" name="proposalType" onchange="toggleDevProposal()" required>
                 <option value="standard">Standard Proposal</option>
                 <option value="dev">3-Month Standard Dev Proposal</option>
+                <option value="dev-batched">3-Month Standard Dev Proposal (Batched Hours)</option>
             </select>
 
             <div id="devProposalFields" class="additional-fields hidden">
@@ -97,6 +98,20 @@
                 <input type="number" id="additionalXmrPerHour" name="additionalXmrPerHour" step="0.01" oninput="updateMilestones()">
             </div>
             
+            <div id="devBatchedProposalFields" class="additional-fields hidden">
+                <label for="totalHours">Total Hours</label>
+                <input type="number" id="totalHours" name="totalHours" oninput="updateBatchedMilestones()">
+
+                <label for="hourlyRateBatched">Hourly Rate (USD)</label>
+                <input type="number" id="hourlyRateBatched" name="hourlyRateBatched" step="0.01" oninput="updateBatchedMilestones()">
+
+                <label for="usdPerXmrBatched">Chosen USD Price of Monero (XMR)</label>
+                <input type="number" id="usdPerXmrBatched" name="usdPerXmrBatched" step="0.01" oninput="updateBatchedMilestones()">
+
+                <label for="additionalXmrPerHourBatched">Additional XMR per Hour (Optional)</label>
+                <input type="number" id="additionalXmrPerHourBatched" name="additionalXmrPerHourBatched" step="0.01" oninput="updateBatchedMilestones()">
+            </div>
+
             <label for="title">Title</label>
             <input type="text" id="title" name="title" required>
             
@@ -124,11 +139,18 @@
 
         function toggleDevProposal() {
             const devProposalFields = document.getElementById('devProposalFields');
+            const devBatchedProposalFields = document.getElementById('devBatchedProposalFields');
             if (document.getElementById('proposalType').value === 'dev') {
                 devProposalFields.classList.remove('hidden');
+                devBatchedProposalFields.classList.add('hidden');
                 populateDevMilestones();
+            } else if (document.getElementById('proposalType').value === 'dev-batched') {
+                devProposalFields.classList.add('hidden');
+                devBatchedProposalFields.classList.remove('hidden');
+                populateDevBatchedMilestones();
             } else {
                 devProposalFields.classList.add('hidden');
+                devBatchedProposalFields.classList.add('hidden');
                 clearMilestones();
             }
         }
@@ -168,13 +190,32 @@
                 `;
                 milestonesDiv.appendChild(milestoneDiv);
             }
-            updateMilestones();
+        }
+
+        function populateDevBatchedMilestones() {
+            clearMilestones();
+            const milestonesDiv = document.getElementById('milestones');
+            for (let i = 1; i <= 3; i++) {
+                milestoneCount++;
+                const milestoneDiv = document.createElement('div');
+                milestoneDiv.className = 'milestone';
+                milestoneDiv.id = `milestone-${milestoneCount}`;
+                milestoneDiv.innerHTML = `
+                    <label for="milestone-name-${milestoneCount}">Name</label>
+                    <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" value="Month ${i}" readonly>
+                    <label for="milestone-funds-${milestoneCount}">Funds</label>
+                    <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" readonly>
+                    <input type="hidden" id="milestone-status-${milestoneCount}" name="milestone-status-${milestoneCount}" value="unfinished">
+                    <input type="hidden" id="milestone-done-${milestoneCount}" name="milestone-done-${milestoneCount}" value="">
+                `;
+                milestonesDiv.appendChild(milestoneDiv);
+            }
         }
 
         function clearMilestones() {
+            milestoneCount = 0;
             const milestonesDiv = document.getElementById('milestones');
             milestonesDiv.innerHTML = '<label for="milestones">Milestones</label>';
-            milestoneCount = 0;
         }
 
         function updateMilestones() {
@@ -182,29 +223,63 @@
             const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
             const usdPerXmr = parseFloat(document.getElementById('usdPerXmr').value);
             const additionalXmrPerHour = parseFloat(document.getElementById('additionalXmrPerHour').value || 0);
-            
+
             if (isNaN(hourlyRate) || isNaN(hoursPerWeek) || isNaN(usdPerXmr)) {
                 return;
             }
 
-            const usdPerMonth = hourlyRate * hoursPerWeek * 4;
-            const xmrPerMonth = (usdPerMonth / usdPerXmr) + (additionalXmrPerHour * hoursPerWeek * 4);
-            
-            for (let i = 1; i <= milestoneCount; i++) {
-                document.getElementById(`milestone-funds-${i}`).value = xmrPerMonth.toFixed(1);
+            const monthlyHours = hoursPerWeek * 4.34524;
+            const totalUsd = hourlyRate * monthlyHours;
+            const totalXmr = totalUsd / usdPerXmr;
+            const additionalXmr = additionalXmrPerHour * monthlyHours;
+
+            for (let i = 1; i <= 3; i++) {
+                const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
+                document.getElementById(`milestone-funds-${i}`).value = milestoneFunds;
+            }
+        }
+
+        function updateBatchedMilestones() {
+            const totalHours = parseFloat(document.getElementById('totalHours').value);
+            const hourlyRate = parseFloat(document.getElementById('hourlyRateBatched').value);
+            const usdPerXmr = parseFloat(document.getElementById('usdPerXmrBatched').value);
+            const additionalXmrPerHour = parseFloat(document.getElementById('additionalXmrPerHourBatched').value || 0);
+
+            if (isNaN(totalHours) || isNaN(hourlyRate) || isNaN(usdPerXmr)) {
+                return;
+            }
+
+            const monthlyHours = totalHours / 3;
+            const totalUsd = hourlyRate * monthlyHours;
+            const totalXmr = totalUsd / usdPerXmr;
+            const additionalXmr = additionalXmrPerHour * monthlyHours;
+
+            for (let i = 1; i <= 3; i++) {
+                const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
+                document.getElementById(`milestone-funds-${i}`).value = milestoneFunds;
             }
         }
 
         function generateYaml(event) {
             event.preventDefault();
-            const form = document.getElementById('proposalForm');
-            const formData = new FormData(form);
+            const formData = new FormData(document.getElementById('proposalForm'));
+
             let yaml = "---\n";
+
+            const proposalType = formData.get('proposalType');
+
             let totalFunds = 0;
 
-            for (let i = 1; i <= milestoneCount; i++) {
-                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
-                totalFunds += funds;
+            if (proposalType === 'dev' || proposalType === 'dev-batched') {
+                for (let i = 1; i <= 3; i++) {
+                    const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                    totalFunds += funds;
+                }
+            } else {
+                for (let i = 1; i <= milestoneCount; i++) {
+                    const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                    totalFunds += funds;
+                }
             }
 
             yaml += `amount: ${totalFunds.toFixed(1)}\n`;
@@ -214,13 +289,24 @@
             yaml += `title: ${formData.get('title')}\n`;
             yaml += `milestones:\n`;
 
-            for (let i = 1; i <= milestoneCount; i++) {
-                const name = formData.get(`milestone-name-${i}`);
-                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
-                yaml += `  - name: ${name}\n`;
-                yaml += `    funds: ${funds.toFixed(1)}\n`;
-                yaml += `    status: unfinished\n`;
-                yaml += `    done: \n`;
+            if (proposalType === 'dev' || proposalType === 'dev-batched') {
+                for (let i = 1; i <= 3; i++) {
+                    const name = formData.get(`milestone-name-${i}`);
+                    const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                    yaml += `  - name: ${name}\n`;
+                    yaml += `    funds: ${funds.toFixed(1)}\n`;
+                    yaml += `    status: unfinished\n`;
+                    yaml += `    done: \n`;
+                }
+            } else {
+                for (let i = 1; i <= milestoneCount; i++) {
+                    const name = formData.get(`milestone-name-${i}`);
+                    const funds = parseFloat(formData.get(`milestone-funds-${i}`));
+                    yaml += `  - name: ${name}\n`;
+                    yaml += `    funds: ${funds.toFixed(1)}\n`;
+                    yaml += `    status: unfinished\n`;
+                    yaml += `    done: \n`;
+                }
             }
 
             yaml += "---\n";
