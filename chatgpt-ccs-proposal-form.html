@@ -126,8 +126,9 @@
                     <option value="usd">USD</option>
                     <option value="eur">EUR</option>
                 </select>
-                <label for="pricePeriod">Price Period</label>
-                <select id="pricePeriod" name="pricePeriod" onchange="updateMoneroPrice()">
+                <label for="pricePeriodBatched">Price Period</label>
+                <select id="pricePeriodBatched" name="pricePeriod" onchange="updateMoneroPrice()">
+                    <option value="1"></option>
                     <option value="1">1 Day</option>
                     <option value="7">1 Week</option>
                     <option value="30">1 Month</option>
@@ -142,7 +143,7 @@
             </div>
             
             <div id="milestones">
-                <label for="milestones">Milestones</label>
+                <h2>Milestones</h2>
             </div>
             <button type="button" onclick="addMilestone()">Add Milestone</button>
             
@@ -202,6 +203,10 @@
         function populateMilestones(count) {
             clearMilestones();
             const milestonesDiv = document.getElementById('milestones');
+            const proposalType = document.getElementById('proposalType').value;
+            const totalHours = parseFloat(document.getElementById('totalHours').value) || 0;
+            const hoursPerMilestone = (totalHours / 3).toFixed(2);
+
             for (let i = 1; i <= count; i++) {
                 milestoneCount++;
                 const milestoneDiv = document.createElement('div');
@@ -209,7 +214,7 @@
                 milestoneDiv.id = `milestone-${milestoneCount}`;
                 milestoneDiv.innerHTML = `
                     <label for="milestone-name-${milestoneCount}">Name</label>
-                    <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" value="Month ${i}" readonly>
+                    <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" value="${proposalType === 'dev-batched' ? hoursPerMilestone + ' hours' : 'Month ' + i}" readonly>
                     <label for="milestone-funds-${milestoneCount}">Funds</label>
                     <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" readonly>
                     <input type="hidden" id="milestone-status-${milestoneCount}" name="milestone-status-${milestoneCount}" value="unfinished">
@@ -222,7 +227,7 @@
         function clearMilestones() {
             milestoneCount = 0;
             const milestonesDiv = document.getElementById('milestones');
-            milestonesDiv.innerHTML = '<label for="milestones">Milestones</label>';
+            milestonesDiv.innerHTML = '<h2>Milestones</h2>';
         }
 
         function updateMilestones() {
@@ -239,9 +244,9 @@
             const totalUsd = hourlyRate * monthlyHours;
             const totalXmr = totalUsd / usdPerXmr;
             const additionalXmr = additionalXmrPerHour * monthlyHours;
+            const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
 
             for (let i = 1; i <= 3; i++) {
-                const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
                 document.getElementById(`milestone-funds-${i}`).value = milestoneFunds;
             }
         }
@@ -260,38 +265,34 @@
             const totalUsd = hourlyRate * monthlyHours;
             const totalXmr = totalUsd / usdPerXmr;
             const additionalXmr = additionalXmrPerHour * monthlyHours;
+            const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
 
             for (let i = 1; i <= 3; i++) {
-                const milestoneFunds = (totalXmr + additionalXmr).toFixed(1);
                 document.getElementById(`milestone-funds-${i}`).value = milestoneFunds;
+                document.getElementById(`milestone-name-${i}`).value = monthlyHours.toFixed(1) + " hours";
             }
         }
-
         function generateYaml(event) {
             event.preventDefault();
             const formData = new FormData(document.getElementById('proposalForm'));
 
+            const keys = ['layout', 'title', 'author', 'date'];
             let yaml = "---\n";
-
-            const proposalType = formData.get('proposalType');
-
             let totalFunds = 0;
 
+            keys.forEach(key => {
+                yaml += `${key}: ${formData.get(key)}\n`;
+            });
+
+            const proposalType = formData.get('proposalType');
             for (let i = 1; i <= milestoneCount; i++) {
-                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
-                totalFunds += funds;
+                totalFunds += parseFloat(formData.get(`milestone-funds-${i}`)) || 0;
             }
 
-            yaml += `layout: ${formData.get('layout')}\n`;
-            yaml += `title: ${formData.get('title')}\n`;
-            yaml += `author: ${formData.get('author')}\n`;
-            yaml += `date: ${formData.get('date')}\n`;
             yaml += `amount: ${totalFunds.toFixed(1)}\n`;
             yaml += `milestones:\n`;
             for (let i = 1; i <= milestoneCount; i++) {
-                const name = formData.get(`milestone-name-${i}`);
-                const funds = parseFloat(formData.get(`milestone-funds-${i}`));
-                yaml += `  - name: ${name}\n`;
+                yaml += `  - name: ${formData.get(`milestone-name-${i}`)}\n`;
                 yaml += `    funds: ${formData.get(`milestone-funds-${i}`)}\n`;
                 yaml += `    status: unfinished\n`;
                 yaml += `    done: \n`;
@@ -299,11 +300,42 @@
             yaml += `payouts:\n`;
             for (let i = 1; i <= milestoneCount; i++) {
                 yaml += `  - date:\n`;
-                yaml += `    amount:${formData.get(`milestone-funds-${i}`)}\n`;
+                yaml += `    amount: ${formData.get(`milestone-funds-${i}`)}\n`;
             }
             yaml += "---\n";
-            const description = formData.get('description');
-            yaml += description;
+
+            yaml += formData.get('description');
+
+            // Add specific text for 3-Month Dev Proposals
+            if (proposalType === 'dev' || proposalType === 'dev-batched') {
+                const hoursPerWeek = formData.get(proposalType === 'dev-batched' ? 'totalHours' : 'hoursPerWeek');
+                const currency = formData.get('currency') || formData.get('currencyBatched');
+                const currencySymbol = currency === 'eur' ? '€' : '$';
+                const hourlyRate = parseFloat(formData.get('hourlyRate') || formData.get('hourlyRateBatched'));
+                const moneroPrice = parseFloat(formData.get('usdPerXmr') || formData.get('usdPerXmrBatched'));
+                const pricePeriod = document.getElementById(document.getElementById('proposalType').value === 'dev-batched' ? 'pricePeriodBatched' : 'pricePeriod').value;
+                const additionalXmrPerHour = parseFloat(formData.get('additionalXmrPerHour') || formData.get('additionalXmrPerHourBatched')) || 0;
+
+                // Calculate the end date 3 months from the start date
+                const startDate = new Date(formData.get('date'));
+                const endDate = new Date(startDate);
+                endDate.setMonth(startDate.getMonth() + 2);
+                const endDateStr = endDate.toLocaleString('default', { month: 'long', year: 'numeric' });
+
+                let rateText = `${hourlyRate}${currencySymbol} / hour`;
+                if (additionalXmrPerHour > 0) {
+                    rateText += ` + ${additionalXmrPerHour} XMR/hr`;
+                }
+                const emaText = pricePeriod !== '1' ? ` (${pricePeriod}-day EMA)` : '';
+                
+                if (proposalType === 'dev') {
+                    const text = `\n\n## Proposal\nWork for ${hoursPerWeek} hours per week over the next 3 months (from ${startDate.toLocaleString('default', { month: 'long' })} to end of ${endDateStr}) at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(1)} XMR.`;
+                    yaml += text;
+                } else {
+                    const text = `\n\n## Proposal\n${hoursPerWeek} hours. at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(1)} XMR.`;
+                    yaml += text;
+                }
+            }
 
             document.getElementById('yaml').textContent = yaml;
             document.getElementById('yamlOutput').classList.remove('hidden');
@@ -315,7 +347,7 @@
         }
 
         async function updateMoneroPrice() {
-            const pricePeriod = document.getElementById('pricePeriod').value;
+            const pricePeriod = document.getElementById(document.getElementById('proposalType').value === 'dev-batched' ? 'pricePeriodBatched' : 'pricePeriod').value;
             const currency = document.getElementById('currency').value;
             document.getElementById('pricelabel').textContent = `Chosen ${currency.toUpperCase()} Price of Monero (XMR)`;
             document.getElementById('pricelabel2').textContent = `Hourly Rate (${currency.toUpperCase()})`;
@@ -334,6 +366,7 @@
 
 
                 updateMilestones(); // Update milestones based on the fetched price
+                updateBatchedMilestones();
             } catch (error) {
                 console.error('Error fetching Monero price:', error);
             }
