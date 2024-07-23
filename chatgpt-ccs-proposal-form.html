@@ -336,6 +336,8 @@
             yaml += "---\n";
 
             yaml += formData.get('description');
+            //ccs parser requires us to end with a newline
+            yaml += "\n";
 
             // Add specific text for 3-Month Dev Proposals
             if (proposalType === 'dev' || proposalType === 'dev-batched') {
