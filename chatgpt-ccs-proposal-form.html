@@ -326,7 +326,7 @@
                 yaml += `  - name: ${formData.get(`milestone-name-${i}`)}\n`;
                 yaml += `    funds: ${formData.get(`milestone-funds-${i}`)}\n`;
                 yaml += `    status: unfinished\n`;
-                yaml += `    done: \n`;
+                yaml += `    done:\n`;
             }
             yaml += `payouts:\n`;
             for (let i = 1; i <= milestoneCount; i++) {
