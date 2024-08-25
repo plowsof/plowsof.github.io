@@ -303,8 +303,22 @@
                 document.getElementById(`milestone-name-${i}`).value = monthlyHours.toFixed(1) + " hours";
             }
         }
+        function isHtmlSpecialChars(value) {
+            const div = document.createElement('div');
+            div.textContent = value;
+            const encodedValue = div.innerHTML;
+            return value === encodedValue;
+        }
+
         function generateYaml(event) {
             event.preventDefault();
+            const title = document.getElementById('title').value;
+
+            // Check if title has special HTML characters
+            if (!isHtmlSpecialChars(title)) {
+                alert("Remove any chars that need to be escaped in a URL e.g. '&'");
+                return;
+            }
             const formData = new FormData(document.getElementById('proposalForm'));
 
             const keys = ['layout', 'title', 'author', 'date'];
