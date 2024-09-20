@@ -423,6 +423,21 @@
         toggleButton.addEventListener('click', () => {
             document.body.classList.toggle('dark-mode');
         });
+
+        // Function to format the date
+        const dateInput = document.getElementById('date');
+        function formatDate(dateString) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', options);
+        }
+
+        // Event listener for date input change
+        dateInput.addEventListener('change', function() {
+            const formattedDate = formatDate(dateInput.value);
+            formattedDateDiv.textContent = formattedDate;
+        });
+
     </script>
 </body>
 </html>
