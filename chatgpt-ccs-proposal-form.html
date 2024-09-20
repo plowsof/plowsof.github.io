@@ -326,7 +326,13 @@
             let totalFunds = 0;
 
             keys.forEach(key => {
-                yaml += `${key}: ${formData.get(key)}\n`;
+                if (key === 'date') {
+                    const dateValue = formData.get(key);
+                    const formattedDate = formatDate(dateValue);
+                    yaml += `${key}: ${formattedDate}\n`;
+                } else {
+                    yaml += `${key}: ${formData.get(key)}\n`;
+                }
             });
 
             const proposalType = formData.get('proposalType');
@@ -431,13 +437,6 @@
             const date = new Date(dateString);
             return date.toLocaleDateString('en-US', options);
         }
-
-        // Event listener for date input change
-        dateInput.addEventListener('change', function() {
-            const formattedDate = formatDate(dateInput.value);
-            formattedDateDiv.textContent = formattedDate;
-        });
-
     </script>
 </body>
 </html>
