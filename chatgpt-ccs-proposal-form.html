@@ -400,25 +400,39 @@
         }
 
         async function updateMoneroPrice() {
-            const pricePeriod = document.getElementById(document.getElementById('proposalType').value === 'dev-batched' ? 'pricePeriodBatched' : 'pricePeriod').value;
-            const currency = document.getElementById('currency').value;
-            document.getElementById('pricelabel').textContent = `Chosen ${currency.toUpperCase()} Price of Monero (XMR)`;
-            document.getElementById('pricelabel2').textContent = `Hourly Rate (${currency.toUpperCase()})`;
+            const proposalType = document.getElementById('proposalType').value;
+            const pricePeriod = document.getElementById(proposalType === 'dev-batched' ? 'pricePeriodBatched' : 'pricePeriod').value;
+            const currency = document.getElementById(proposalType === 'dev-batched' ? 'currencyBatched' : 'currency').value;
+            const currencyUpper = currency.toUpperCase();
+
+            // Update all relevant labels and placeholders
+            const elementsToUpdate = [
+                { id: 'pricelabel', textContent: `Chosen ${currencyUpper} Price of Monero (XMR)` },
+                { id: 'pricelabel2', textContent: `Hourly Rate (${currencyUpper})` },
+                { id: 'hourlyRate', placeholder: `Enter rate in ${currencyUpper}` },
+                { id: 'hourlyRateBatched', placeholder: `Enter rate in ${currencyUpper}` },
+                { id: 'usdPerXmr', placeholder: `Enter ${currencyUpper}/XMR price` },
+                { id: 'usdPerXmrBatched', placeholder: `Enter ${currencyUpper}/XMR price` }
+            ];
+
+            elementsToUpdate.forEach(({ id, textContent, placeholder }) => {
+                const element = document.getElementById(id);
+                if (element) {
+                    if (textContent) element.textContent = textContent;
+                    if (placeholder) element.placeholder = placeholder;
+                }
+            });
 
             try {
                 const response = await fetch(`https://api.coingecko.com/api/v3/coins/monero/market_chart?vs_currency=${currency}&days=${pricePeriod}`);
                 const data = await response.json();
                 const prices = data.prices;
-                let averagePrice = 0;
-                for (let i = 0; i < prices.length; i++) {
-                    averagePrice += prices[i][1];
-                }
-                averagePrice /= prices.length;
+                let averagePrice = prices.reduce((sum, price) => sum + price[1], 0) / prices.length;
+                
                 document.getElementById('usdPerXmr').value = averagePrice.toFixed(2);
                 document.getElementById('usdPerXmrBatched').value = averagePrice.toFixed(2);
 
-
-                updateMilestones(); // Update milestones based on the fetched price
+                updateMilestones();
                 updateBatchedMilestones();
             } catch (error) {
                 console.error('Error fetching Monero price:', error);
