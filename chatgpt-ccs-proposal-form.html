@@ -85,6 +85,24 @@
         .dark-mode .toggle-button {
             color: #f4d03f;
         }
+        #yaml {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        .copy-button {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .copy-button:hover {
+            background-color: #45a049;
+        }
     </style>
 </head>
 <body>
@@ -186,11 +204,11 @@
                 <button type="submit">Submit</button>
             </div>
         </form>
-        <div id="yamlOutput" class="hidden">
-            <h2>Generated YAML</h2>
-            <pre id="yaml"></pre>
-       
-        </div>
+	    <div id="yamlOutput" class="hidden">
+	        <h2>Generated YAML</h2>
+	        <pre id="yaml"></pre>
+	        <button id="copyButton" class="copy-button">Copy to Clipboard</button>
+	    </div>
     </div>
 
     <script>
@@ -392,8 +410,20 @@
 
             document.getElementById('yaml').textContent = yaml;
             document.getElementById('yamlOutput').classList.remove('hidden');
+            document.getElementById('copyButton').addEventListener('click', copyToClipboard);
         }
 
+        function copyToClipboard() {
+            const yamlContent = document.getElementById('yaml').textContent;
+            const textWithNewline = yamlContent.endsWith('\n') ? yamlContent : yamlContent + '\n';
+            
+            navigator.clipboard.writeText(textWithNewline).then(function() {
+                alert('Copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+        
         function clearYaml() {
             document.getElementById('yamlOutput').classList.add('hidden');
             document.getElementById('yaml').textContent = '';
