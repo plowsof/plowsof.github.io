@@ -18,11 +18,11 @@
             },
             {
                   "goal": 3,
-                  "total": 0.500735847636,
-                  "contributors": 8,
+                  "total": 0.6537233812309999,
+                  "contributors": 9,
                   "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
                   "desc": "Mining animation (pixel art)",
-                  "percent": 16.6911949212
+                  "percent": 21.790779374366664
             },
             {
                   "goal": 2,
@@ -36,6 +36,6 @@
       {
             "total": 0.29732965009199996,
             "contributors": 95,
-            "modified": "2024-10-09 17:00:42.293975"
+            "modified": "2024-10-10 08:32:07.424716"
       }
 ]
