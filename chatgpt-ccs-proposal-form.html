@@ -358,7 +358,7 @@
                 totalFunds += parseFloat(formData.get(`milestone-funds-${i}`)) || 0;
             }
 
-            yaml += `amount: ${totalFunds.toFixed(1)}\n`;
+            yaml += `amount: ${totalFunds.toFixed(2)}\n`;
             yaml += `milestones:\n`;
             for (let i = 1; i <= milestoneCount; i++) {
                 yaml += `  - name: ${formData.get(`milestone-name-${i}`)}\n`;
@@ -400,10 +400,10 @@
                 const emaText = pricePeriod !== '1' ? ` (${pricePeriod}-day EMA)` : '';
                 
                 if (proposalType === 'dev') {
-                    const text = `\n\n## Proposal\nWork for ${hoursPerWeek} hours per week over the next 3 months (from ${startDate.toLocaleString('default', { month: 'long' })} to end of ${endDateStr}) at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(1)} XMR.`;
+                    const text = `\n\n## Proposal\nWork for ${hoursPerWeek} hours per week over the next 3 months (from ${startDate.toLocaleString('default', { month: 'long' })} to end of ${endDateStr}) at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(2)} XMR.`;
                     yaml += text;
                 } else {
-                    const text = `\n\n## Proposal\n${hoursPerWeek} hours. at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(1)} XMR.`;
+                    const text = `\n\n## Proposal\n${hoursPerWeek} hours. at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(2)} XMR.`;
                     yaml += text;
                 }
             }
