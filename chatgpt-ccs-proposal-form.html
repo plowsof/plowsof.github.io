@@ -240,9 +240,9 @@
             milestoneDiv.id = `milestone-${milestoneCount}`;
             milestoneDiv.innerHTML = `
                 <label for="milestone-name-${milestoneCount}">Name</label>
-                <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" step="0.01" required>
+                <input type="text" id="milestone-name-${milestoneCount}" name="milestone-name-${milestoneCount}" required>
                 <label for="milestone-funds-${milestoneCount}">Funds</label>
-                <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" required>
+                <input type="number" id="milestone-funds-${milestoneCount}" name="milestone-funds-${milestoneCount}" step="0.01" required>
                 <input type="hidden" id="milestone-status-${milestoneCount}" name="milestone-status-${milestoneCount}" value="unfinished">
                 <input type="hidden" id="milestone-done-${milestoneCount}" name="milestone-done-${milestoneCount}" value="">
             `;
