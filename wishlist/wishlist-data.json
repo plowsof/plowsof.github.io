@@ -1,7 +1,7 @@
 [
       [
             {
-                  "goal": 3,
+                  "goal": 1.5,
                   "total": 1.059729269349,
                   "contributors": 9,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
@@ -9,7 +9,7 @@
                   "percent": 35.324308978299996
             },
             {
-                  "goal": 2,
+                  "goal": 1,
                   "total": 0.7048107699999999,
                   "contributors": 5,
                   "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
@@ -17,7 +17,7 @@
                   "percent": 35.2405385
             },
             {
-                  "goal": 3,
+                  "goal": 1.5,
                   "total": 0.828723381231,
                   "contributors": 10,
                   "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
@@ -25,7 +25,7 @@
                   "percent": 27.6241127077
             },
             {
-                  "goal": 2,
+                  "goal": 1,
                   "total": 0.12000000000000001,
                   "contributors": 2,
                   "address": "8938vfszM1YfUaWAtU4j6qWfPwWPf1zWbBBgkELCFrSCTGa2ANLsWLw8krxBdTAdRLMTw6KsiS4PP2v1FNmyuHoEAPS6Fnu",
