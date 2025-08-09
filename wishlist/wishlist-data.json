@@ -1,20 +1,20 @@
 [
       [
             {
+                  "goal": 1,
+                  "total": 0.75481077,
+                  "contributors": 6,
+                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
+                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
+                  "percent": 75.481077
+            },
+            {
                   "goal": 1.5,
                   "total": 1.059729269349,
                   "contributors": 9,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
                   "percent": 35.324308978299996
-            },
-            {
-                  "goal": 1,
-                  "total": 0.7048107699999999,
-                  "contributors": 5,
-                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
-                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
-                  "percent": 35.2405385
             },
             {
                   "goal": 1.5,
@@ -36,6 +36,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2025-08-06 09:34:22.187403"
+            "modified": "2025-08-09 01:23:49.292428"
       }
 ]
