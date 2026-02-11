@@ -10,19 +10,19 @@
             },
             {
                   "goal": 1.5,
+                  "total": 1.086123206352,
+                  "contributors": 15,
+                  "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
+                  "desc": "Mining animation (pixel art)",
+                  "percent": 72.40821375680001
+            },
+            {
+                  "goal": 1.5,
                   "total": 1.063529269349,
                   "contributors": 10,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
                   "percent": 70.90195128993332
-            },
-            {
-                  "goal": 1.5,
-                  "total": 1.0556395526800002,
-                  "contributors": 14,
-                  "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
-                  "desc": "Mining animation (pixel art)",
-                  "percent": 70.37597017866668
             },
             {
                   "goal": 1,
@@ -36,6 +36,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2025-11-10 19:56:53.793725"
+            "modified": "2026-02-11 10:17:34.729936"
       }
 ]
