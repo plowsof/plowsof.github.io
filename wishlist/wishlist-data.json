@@ -2,11 +2,11 @@
       [
             {
                   "goal": 1,
-                  "total": 0.75481077,
-                  "contributors": 6,
+                  "total": 1.00481077,
+                  "contributors": 7,
                   "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
                   "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
-                  "percent": 75.481077
+                  "percent": 100
             },
             {
                   "goal": 1.5,
@@ -36,6 +36,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-04-17 00:52:50.935661"
+            "modified": "2026-04-19 02:36:13.438621"
       }
 ]
