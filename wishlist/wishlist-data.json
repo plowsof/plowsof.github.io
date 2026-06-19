@@ -26,16 +26,16 @@
             },
             {
                   "goal": 1,
-                  "total": 0.23348180000000002,
-                  "contributors": 6,
+                  "total": 0.23458484737500002,
+                  "contributors": 7,
                   "address": "8938vfszM1YfUaWAtU4j6qWfPwWPf1zWbBBgkELCFrSCTGa2ANLsWLw8krxBdTAdRLMTw6KsiS4PP2v1FNmyuHoEAPS6Fnu",
                   "desc": "As a Saint in Orthodox Christian artstyle",
-                  "percent": 23.348180000000003
+                  "percent": 23.4584847375
             }
       ],
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-04-27 17:29:33.695532"
+            "modified": "2026-06-19 16:18:53.449137"
       }
 ]
