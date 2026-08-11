@@ -1,6 +1,14 @@
 [
       [
             {
+                  "goal": 1,
+                  "total": 1.00481077,
+                  "contributors": 7,
+                  "address": "82y9XNVik5Cj3RNZfYQJF22CY2ViaoCb9FWXbg8mRFjN2AVCRu3yWVHBC7AyHipNH5NngogNkkNxuAgFkGLeEfGN1swQAkx",
+                  "desc": "As an angel with cyber wings <a href='mercy.jpg'>(Example)</a>",
+                  "percent": 100
+            },
+            {
                   "goal": 1.5,
                   "total": 1.086123206352,
                   "contributors": 15,
@@ -24,7 +32,7 @@
                   "desc": "As a Saint in Orthodox Christian artstyle",
                   "percent": 23.4584847375
             }
-      ],     
+      ],
       {
             "total": 1.541889650092,
             "contributors": 97,
