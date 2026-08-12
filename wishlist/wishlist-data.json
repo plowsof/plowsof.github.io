@@ -23,11 +23,43 @@
                   "address": "8938vfszM1YfUaWAtU4j6qWfPwWPf1zWbBBgkELCFrSCTGa2ANLsWLw8krxBdTAdRLMTw6KsiS4PP2v1FNmyuHoEAPS6Fnu",
                   "desc": "As a Saint in Orthodox Christian artstyle",
                   "percent": 23.4584847375
+            },
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "88MCEihrs1iA1xdZqBLzyDaoV8gX8S4fuMYT1U2p6Gofby5wsD9ScWQBMVUAJmXhQGFSkabjXGMCzUwDn4EbtDYN8cGhPMp",
+                  "desc": "Miami Vice (80s) themed",
+                  "percent": 0
+            },
+            {
+                  "goal": 1.5,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "8ABZ5nEAq2yFkUuivwh5JNVyGpXzsCPxcb2p96zE5ct3HXNiBUAGdavRGFrnt9QmvaHh6syCGwx2Qh2fDkqcXjj73vHiSho",
+                  "desc": "Protecting a comfy anon with a shield",
+                  "percent": 0
+            },   
+            {
+                  "goal": 2,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "82gSdTqQpWWa21xzJ3GoYHSGvdSVWykMdByy1Lt1FjqWMqG8MogVE3xfcZMwfndLEwA3CT9jd22enJAvGtbJTpWcPqMYHvv",
+                  "desc": "Cute dancing pixel art animation",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "845poB8HVc1T2dryubuCBQhM6kmpDZX1HN295Ha2wcBrFwHV8hyavME9ahB31QMqjX8EdmdQjSPd8YRWunX5ccFqNHXFVjm",
+                  "desc": "MTG style card",
+                  "percent": 0
             }
       ],
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-11 16:18:53.449137"
+            "modified": "2026-08-11 20:09:53.449137"
       }
 ]
