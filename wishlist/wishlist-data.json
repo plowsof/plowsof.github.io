@@ -55,11 +55,59 @@
                   "address": "845poB8HVc1T2dryubuCBQhM6kmpDZX1HN295Ha2wcBrFwHV8hyavME9ahB31QMqjX8EdmdQjSPd8YRWunX5ccFqNHXFVjm",
                   "desc": "MTG style card",
                   "percent": 0
-            }
+            },
+            {
+                  "goal": 1.5,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "8B51f7Yf4ou9ZcJhDYyQkzVUACgWecaA88Mb9sSnkWJR1eFFsajaYHEAASwrrpt76F6ehQKSKZTzKgxTzcmtCpPQKjiWZud",
+                  "desc": "Cyberpunk rooftop at night (Sitting casually on the edge of a skyscraper while surveillance cameras and data streams fills the city below)",
+                  "percent": 0
+            },
+            {
+                  "goal": 2,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "866CXBunePhjePq42SELwZc49Bq4CJdrvWea1JdgVSRg1ZxiS26vRkH7T2fLschaiZRMCBC8efGYWhtLYQJ2rZgm3xAaZjr",
+                  "desc": "Surrounded by countless identical versions of herself, sitting in a big ring",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "87UJnNX1hRnPzJQNSRhbRD5gBzcB6K4B3FxNSfc4PxjRdaJ4C7Kt2sr9ZvJihejrTzPBFouQCzn4HYwsbRcnFP1N9xpKH1M",
+                  "desc": "Hugging a diary covered in locks while nosy little drones float around her",
+                  "percent": 0
+            }  
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "85U1Mp41RoneL4DMXfJ6mSVfEtYFwk5RrW6Rn5RYaqByY88RvVeBxT5Y92vqbejrs9MWKKxK9AM6J7AiubwCyv2F2uiABSr",
+                  "desc": "As a witch casting a spell, surrounded by floating symbols & equations",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "83K3AxrTLev5oEDrjM2vv39RY7xS6ZAiMiSmiaLot81D1svHLkhXt1sd8NcZprGoQnATWifAShZPRhLpejkPisbaDGspKTG",
+                  "desc": "Wearing an invisibility cloak",
+                  "percent": 0
+            },
+            {
+                  "goal": 1,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "",
+                  "desc": "As a cute detective writing in invisible ink",
+                  "percent": 0
+            }               
       ],
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-11 20:09:53.449137"
+            "modified": "2026-08-14 10:07:53.449137"
       }
 ]
