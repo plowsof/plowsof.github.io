@@ -79,35 +79,11 @@
                   "address": "87UJnNX1hRnPzJQNSRhbRD5gBzcB6K4B3FxNSfc4PxjRdaJ4C7Kt2sr9ZvJihejrTzPBFouQCzn4HYwsbRcnFP1N9xpKH1M",
                   "desc": "Hugging a diary covered in locks while nosy little drones float around her",
                   "percent": 0
-            },  
-            {
-                  "goal": 1,
-                  "total": 0.0,
-                  "contributors": 0,
-                  "address": "85U1Mp41RoneL4DMXfJ6mSVfEtYFwk5RrW6Rn5RYaqByY88RvVeBxT5Y92vqbejrs9MWKKxK9AM6J7AiubwCyv2F2uiABSr",
-                  "desc": "As a witch casting a spell, surrounded by floating symbols & equations",
-                  "percent": 0
-            },
-            {
-                  "goal": 1,
-                  "total": 0.0,
-                  "contributors": 0,
-                  "address": "83K3AxrTLev5oEDrjM2vv39RY7xS6ZAiMiSmiaLot81D1svHLkhXt1sd8NcZprGoQnATWifAShZPRhLpejkPisbaDGspKTG",
-                  "desc": "Wearing an invisibility cloak",
-                  "percent": 0
-            },
-            {
-                  "goal": 1,
-                  "total": 0.0,
-                  "contributors": 0,
-                  "address": "87va2CLtiDqXwd373KukdLfLdDZoz4A473XEtTDNiETuXs5yf7znz4rCaBQTK9eTYEKWVdWXmXeBSiQzjA1vL6PsJFLWhau",
-                  "desc": "As a cute detective writing in invisible ink",
-                  "percent": 0
-            }               
+            }            
       ],
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-14 10:19:53.449137"
+            "modified": "2026-08-17 13:54:53.449137"
       }
 ]
