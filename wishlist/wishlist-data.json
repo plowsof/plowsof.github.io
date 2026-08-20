@@ -17,7 +17,7 @@
                   "percent": 71.5686179566
             },
             {
-                  "goal": 1,
+                  "goal": 0.5,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "88MCEihrs1iA1xdZqBLzyDaoV8gX8S4fuMYT1U2p6Gofby5wsD9ScWQBMVUAJmXhQGFSkabjXGMCzUwDn4EbtDYN8cGhPMp",
@@ -25,7 +25,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1.5,
+                  "goal": 1,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "8ABZ5nEAq2yFkUuivwh5JNVyGpXzsCPxcb2p96zE5ct3HXNiBUAGdavRGFrnt9QmvaHh6syCGwx2Qh2fDkqcXjj73vHiSho",
@@ -57,7 +57,7 @@
                   "percent": 0
             },
             {
-                  "goal": 2,
+                  "goal": 1.5,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "866CXBunePhjePq42SELwZc49Bq4CJdrvWea1JdgVSRg1ZxiS26vRkH7T2fLschaiZRMCBC8efGYWhtLYQJ2rZgm3xAaZjr",
@@ -65,7 +65,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1,
+                  "goal": 0.75,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "87UJnNX1hRnPzJQNSRhbRD5gBzcB6K4B3FxNSfc4PxjRdaJ4C7Kt2sr9ZvJihejrTzPBFouQCzn4HYwsbRcnFP1N9xpKH1M",
@@ -76,6 +76,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-19 20:09:53.449137"
+            "modified": "2026-08-19 20:17:53.449137"
       }
 ]
