@@ -10,11 +10,11 @@
             },
             {
                   "goal": 1.5,
-                  "total": 1.073529269349,
-                  "contributors": 11,
+                  "total": 1.073647907384,
+                  "contributors": 12,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
                   "desc": "At a high stakes poker game",
-                  "percent": 71.5686179566
+                  "percent": 71.57652715893333
             },
             {
                   "goal": 0.5,
@@ -31,7 +31,7 @@
                   "address": "8ABZ5nEAq2yFkUuivwh5JNVyGpXzsCPxcb2p96zE5ct3HXNiBUAGdavRGFrnt9QmvaHh6syCGwx2Qh2fDkqcXjj73vHiSho",
                   "desc": "Protecting a comfy anon with a shield",
                   "percent": 0
-            },   
+            },
             {
                   "goal": 2,
                   "total": 0.0,
@@ -71,11 +71,11 @@
                   "address": "87UJnNX1hRnPzJQNSRhbRD5gBzcB6K4B3FxNSfc4PxjRdaJ4C7Kt2sr9ZvJihejrTzPBFouQCzn4HYwsbRcnFP1N9xpKH1M",
                   "desc": "Hugging a diary covered in locks while nosy little drones float around her",
                   "percent": 0
-            }            
+            }
       ],
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-19 20:17:53.449137"
+            "modified": "2026-08-22 19:01:21.851265"
       }
 ]
