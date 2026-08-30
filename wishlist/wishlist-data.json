@@ -25,7 +25,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1,
+                  "goal": 0.75,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "8ABZ5nEAq2yFkUuivwh5JNVyGpXzsCPxcb2p96zE5ct3HXNiBUAGdavRGFrnt9QmvaHh6syCGwx2Qh2fDkqcXjj73vHiSho",
@@ -33,7 +33,7 @@
                   "percent": 0
             },
             {
-                  "goal": 2,
+                  "goal": 1.5,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "82gSdTqQpWWa21xzJ3GoYHSGvdSVWykMdByy1Lt1FjqWMqG8MogVE3xfcZMwfndLEwA3CT9jd22enJAvGtbJTpWcPqMYHvv",
@@ -65,6 +65,14 @@
                   "percent": 0
             },
             {
+                  "goal": 0.5,
+                  "total": 0.0,
+                  "contributors": 0,
+                  "address": "84uMmNB9PThZrESX4TfFmAHFQHcbbjmxAGR8QWm54Sez7mY9QvYjqHkfXzuzcVobTQT7TSpqfF2ftVwY3HCb5ApYCdhtsjs",
+                  "desc": "Harvesting carrots",
+                  "percent": 0
+            },            
+            {
                   "goal": 0.75,
                   "total": 0.0,
                   "contributors": 0,
@@ -76,6 +84,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-22 19:01:21.851265"
+            "modified": "2026-08-30 16:00:21.851265"
       }
 ]
