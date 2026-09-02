@@ -2,14 +2,6 @@
       [
             {
                   "goal": 1.5,
-                  "total": 1.086123206352,
-                  "contributors": 15,
-                  "address": "8A4RnUJx84YijqBXDFGkCuaQXpr1gjErfE8xbCDDdpr587YGa2ApwQkKj4EvgdvNjPFi6KD3HXzg2UZWgGViWJs8RfngvR6",
-                  "desc": "Mining animation (pixel art)",
-                  "percent": 72.40821375680001
-            },
-            {
-                  "goal": 1.5,
                   "total": 1.073647907384,
                   "contributors": 12,
                   "address": "84a77XCvTdsTeWqWEVrxY7FncTatC8iAw7Z9hoBk5ygn7RXVJPdDgytQ6DdtKJcDjhM8ctw1NArGTQiYndpujXvZDC3GipS",
@@ -41,7 +33,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1,
+                  "goal": 0.75,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "845poB8HVc1T2dryubuCBQhM6kmpDZX1HN295Ha2wcBrFwHV8hyavME9ahB31QMqjX8EdmdQjSPd8YRWunX5ccFqNHXFVjm",
@@ -49,7 +41,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1.5,
+                  "goal": 1,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "8B51f7Yf4ou9ZcJhDYyQkzVUACgWecaA88Mb9sSnkWJR1eFFsajaYHEAASwrrpt76F6ehQKSKZTzKgxTzcmtCpPQKjiWZud",
@@ -57,7 +49,7 @@
                   "percent": 0
             },
             {
-                  "goal": 1.5,
+                  "goal": 1.25,
                   "total": 0.0,
                   "contributors": 0,
                   "address": "866CXBunePhjePq42SELwZc49Bq4CJdrvWea1JdgVSRg1ZxiS26vRkH7T2fLschaiZRMCBC8efGYWhtLYQJ2rZgm3xAaZjr",
@@ -84,6 +76,6 @@
       {
             "total": 1.541889650092,
             "contributors": 97,
-            "modified": "2026-08-30 16:00:21.851265"
+            "modified": "2026-09-02 07:20:21.851265"
       }
 ]
