@@ -391,7 +391,7 @@
                 const startDate = new Date(formData.get('date'));
                 const endDate = new Date(startDate);
                 endDate.setMonth(startDate.getMonth() + 2);
-                const endDateStr = endDate.toLocaleString('default', { month: 'long', year: 'numeric' });
+                const endDateStr = endDate.toLocaleString('en-US', { month: 'long', year: 'numeric' });
 
                 let rateText = `${hourlyRate}${currencySymbol} / hour`;
                 if (additionalXmrPerHour > 0) {
@@ -400,7 +400,7 @@
                 const emaText = pricePeriod !== '1' ? ` (${pricePeriod}-day EMA)` : '';
                 
                 if (proposalType === 'dev') {
-                    const text = `\n\n## Proposal\nWork for ${hoursPerWeek} hours per week over the next 3 months (from ${startDate.toLocaleString('default', { month: 'long' })} to end of ${endDateStr}) at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(2)} XMR.`;
+                    const text = `\n\n## Proposal\nWork for ${hoursPerWeek} hours per week over the next 3 months (from ${startDate.toLocaleString('en-US', { month: 'long' })} to end of ${endDateStr}) at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(2)} XMR.`;
                     yaml += text;
                 } else {
                     const text = `\n\n## Proposal\n${hoursPerWeek} hours. at a rate of ${rateText}. At ${moneroPrice}${currencySymbol} / XMR${emaText} this makes ~${totalFunds.toFixed(2)} XMR.`;
